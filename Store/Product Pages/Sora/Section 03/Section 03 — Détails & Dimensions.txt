@@ -1,0 +1,147 @@
+
+# YŪGA Sora
+
+## Product Page
+
+### Section 03 — Détails & Dimensions
+
+---
+
+## Objectif
+
+Fournir les informations essentielles concernant le produit.
+
+Répondre aux principales questions avant l'achat.
+
+---
+
+## Layout
+
+### Desktop
+
+40% Informations
+
+60% Image de détail
+
+---
+
+### Mobile
+
+Informations
+
+↓
+
+Image de détail
+
+---
+
+## Titre de Section
+
+Détails & Dimensions
+
+---
+
+## Informations Produit
+
+### Catégorie
+
+Lampadaire Décoratif
+
+---
+
+### Collection
+
+YŪGA Origins
+
+---
+
+### Dimensions
+
+Hauteur : 120 cm
+
+Largeur : 30 cm
+
+(Dimensions approximatives)
+
+---
+
+### Matériaux
+
+* Corde de jute naturelle
+* Structure métallique recouverte de jute
+* Système électrique
+* Ampoule non incluse
+
+---
+
+### Fabrication
+
+Réalisé entièrement à la main.
+
+Chaque pièce présente de légères variations qui témoignent de son caractère artisanal.
+
+---
+
+### Installation
+
+Lampadaire sur pied.
+
+Connexion électrique standard.
+
+---
+
+### Entretien
+
+Dépoussiérer régulièrement à l'aide d'un chiffon doux et sec.
+
+Éviter l'humidité excessive.
+
+---
+
+### Utilisation
+
+Usage intérieur uniquement.
+
+---
+
+## Image de Détail
+
+### Type
+
+Photographie Macro
+
+---
+
+### Contenu
+
+Gros plan sur la corde de jute naturelle.
+
+Texture artisanale visible.
+
+Jeu de lumière à travers la matière.
+
+---
+
+### Ratio
+
+4:5
+
+---
+
+## Objectif Émotionnel
+
+Rassurer le visiteur.
+
+Mettre en valeur la qualité des matériaux.
+
+Souligner le caractère artisanal de chaque pièce.
+
+---
+
+## Status
+
+YŪGA Sora
+
+Section 03 — Détails & Dimensions
+
+APPROVED

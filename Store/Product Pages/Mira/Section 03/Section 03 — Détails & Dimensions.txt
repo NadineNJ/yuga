@@ -1,0 +1,211 @@
+
+# YŪGA Mira
+
+## Product Page
+
+### Section 03 — Détails & Dimensions
+
+---
+
+## Objectif
+
+Fournir les informations essentielles concernant le produit.
+
+Répondre aux principales questions avant l'achat.
+
+Cette section met l'accent sur la clarté, la transparence et la confiance.
+
+Contrairement à la section « Product Story », ce bloc est informatif et factuel.
+
+---
+
+## Layout
+
+### Desktop
+
+40% Informations
+
+60% Image de détail
+
+---
+
+### Mobile
+
+Informations
+
+↓
+
+Image de détail
+
+---
+
+## Titre de Section
+
+Détails & Dimensions
+
+Font:
+Cormorant Garamond
+
+Desktop:
+48px
+
+Tablet:
+40px
+
+Mobile:
+32px
+
+Color:
+#3D3A34
+
+---
+
+## Informations Produit
+
+### Catégorie
+
+Miroir Mural Décoratif
+
+---
+
+### Collection
+
+YŪGA Origins
+
+---
+
+### Dimensions
+
+Diamètre : 80 cm
+
+---
+
+### Matériaux
+
+* Corde de jute naturelle
+* Structure interne en bois
+* Miroir en verre
+
+---
+
+### Fabrication
+
+Réalisé entièrement à la main.
+
+Chaque pièce présente de légères variations qui témoignent de son caractère artisanal et unique.
+
+---
+
+### Installation
+
+Fixation murale recommandée.
+
+Le système de fixation sera défini selon la version finale du produit.
+
+---
+
+### Entretien
+
+Nettoyer délicatement la surface du miroir à l'aide d'un chiffon doux.
+
+Éviter les produits abrasifs.
+
+Dépoussiérer régulièrement la corde de jute avec un chiffon sec ou une brosse douce.
+
+---
+
+### Utilisation
+
+Usage intérieur uniquement.
+
+---
+
+## Image de Détail
+
+### Type
+
+Photographie Macro
+
+---
+
+### Contenu
+
+Gros plan sur la corde de jute naturelle.
+
+Texture artisanale visible.
+
+Détails du tressage.
+
+Matière naturelle mise en valeur.
+
+---
+
+### Ratio
+
+4:5
+
+---
+
+### Direction Visuelle
+
+* Lumière naturelle douce
+* Texture clairement visible
+* Atmosphère premium
+* Accent sur le savoir-faire artisanal
+* Mise en scène minimaliste
+
+---
+
+## Typography
+
+### Labels
+
+Font:
+Montserrat Medium
+
+Size:
+12px
+
+Uppercase
+
+Letter Spacing:
+2px
+
+Color:
+#7A7A7A
+
+---
+
+### Valeurs & Descriptions
+
+Font:
+Inter Regular
+
+Size:
+16px
+
+Line Height:
+170%
+
+Color:
+#6B665F
+
+---
+
+## Objectif Émotionnel
+
+Rassurer le visiteur.
+
+Mettre en valeur la qualité des matériaux.
+
+Souligner le caractère artisanal de chaque pièce.
+
+---
+
+## Status
+
+YŪGA Mira
+
+Section 03 — Détails & Dimensions
+
+APPROVED

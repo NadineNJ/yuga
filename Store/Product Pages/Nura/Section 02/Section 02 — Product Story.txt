@@ -1,0 +1,93 @@
+
+# YŪGA Nura
+
+## Product Page
+
+### Section 02 — Product Story
+
+---
+
+## Objectif
+
+Créer une connexion émotionnelle avec le produit.
+
+Expliquer l'inspiration derrière YŪGA Nura.
+
+Communiquer les valeurs de la pièce plutôt que ses caractéristiques techniques.
+
+---
+
+## Layout
+
+### Desktop
+
+50% Image
+
+50% Texte
+
+---
+
+### Mobile
+
+Image
+
+↓
+
+Texte
+
+---
+
+## Direction Visuelle
+
+Image éditoriale.
+
+Lumière douce.
+
+Atmosphère chaleureuse.
+
+Textures naturelles.
+
+Sentiment de calme et de sérénité.
+
+---
+
+## Eyebrow
+
+L'HISTOIRE DE NURA
+
+---
+
+## Main Title
+
+Inspirée par la lumière des instants simples.
+
+---
+
+## Body Text
+
+YŪGA Nura s'inspire de la lumière douce qui accompagne les moments les plus paisibles du quotidien.
+
+Sa silhouette organique et sa texture artisanale créent une présence chaleureuse qui transforme naturellement l'atmosphère d'un espace.
+
+Habillée à la main de corde de jute naturelle, elle diffuse une lumière délicate qui met en valeur les matières, les volumes et les détails de la pièce.
+
+Pensée pour apporter calme et équilibre, Nura est une invitation à ralentir et à profiter pleinement des instants de sérénité.
+
+---
+
+## Emotional Message
+
+Nura n'éclaire pas uniquement un espace.
+
+Elle contribue à créer une atmosphère.
+
+---
+
+## Status
+
+YŪGA Nura
+
+Section 02 — Product Story
+
+APPROVED
+

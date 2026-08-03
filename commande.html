@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Passer la commande — YŪGA</title>
+  <link rel="icon" type="image/png" href="Logo/ICON.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="chatbot.css" />
+  <link rel="stylesheet" href="commande.css" />
+</head>
+<body class="page-checkout">
+
+  <header class="header header--static" id="header">
+    <nav class="nav">
+      <div class="nav__left">
+        <a href="produits.html" class="nav__link">Nouveautés</a>
+        <a href="index.html#story" class="nav__link">Notre Histoire</a>
+      </div>
+      <a href="index.html" class="nav__logo">YŪGA</a>
+      <div class="nav__right">
+        <a href="index.html#faq" class="nav__link">FAQ</a>
+        <a href="produits.html" class="nav__link">Produits</a>
+
+      </div>
+    </nav>
+  </header>
+
+  <main class="checkout">
+    <div class="checkout__inner">
+
+      <!-- LEFT: Form -->
+      <div class="checkout__form-wrap">
+        <a href="index.html" class="checkout__back">← Retour à la page d'accueil</a>
+        <h1 class="checkout__title">Votre commande</h1>
+
+        <form class="checkout__form" id="checkoutForm" novalidate>
+
+          <div class="checkout__section">
+            <h2 class="checkout__section-title">Coordonnées</h2>
+            <div class="form-row form-row--2">
+              <div class="form-group">
+                <label for="prenom">Prénom</label>
+                <input type="text" id="prenom" name="prenom" placeholder="Votre prénom" required />
+              </div>
+              <div class="form-group">
+                <label for="nom">Nom</label>
+                <input type="text" id="nom" name="nom" placeholder="Votre nom" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="telephone">Téléphone</label>
+              <input type="tel" id="telephone" name="telephone" placeholder="+216 XX XXX XXX" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email (optionnel)</label>
+              <input type="email" id="email" name="email" placeholder="votre@email.com" />
+            </div>
+          </div>
+
+          <div class="checkout__section">
+            <h2 class="checkout__section-title">Adresse de livraison</h2>
+            <div class="form-group">
+              <label for="adresse">Adresse complète</label>
+              <input type="text" id="adresse" name="adresse" placeholder="Rue, numéro, appartement..." required />
+            </div>
+            <div class="form-row form-row--2">
+              <div class="form-group">
+                <label for="ville">Ville</label>
+                <input type="text" id="ville" name="ville" placeholder="Tunis" required />
+              </div>
+              <div class="form-group">
+                <label for="gouvernorat">Gouvernorat</label>
+                <select id="gouvernorat" name="gouvernorat" required>
+                  <option value="">Choisir...</option>
+                  <option>Tunis</option>
+                  <option>Ariana</option>
+                  <option>Ben Arous</option>
+                  <option>Manouba</option>
+                  <option>Nabeul</option>
+                  <option>Zaghouan</option>
+                  <option>Bizerte</option>
+                  <option>Béja</option>
+                  <option>Jendouba</option>
+                  <option>Kef</option>
+                  <option>Siliana</option>
+                  <option>Sousse</option>
+                  <option>Monastir</option>
+                  <option>Mahdia</option>
+                  <option>Sfax</option>
+                  <option>Kairouan</option>
+                  <option>Kasserine</option>
+                  <option>Sidi Bouzid</option>
+                  <option>Gabès</option>
+                  <option>Médenine</option>
+                  <option>Tataouine</option>
+                  <option>Gafsa</option>
+                  <option>Tozeur</option>
+                  <option>Kébili</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="notes">Notes pour la livraison (optionnel)</label>
+              <textarea id="notes" name="notes" rows="3" placeholder="Instructions particulières, étage, code d'accès..."></textarea>
+            </div>
+          </div>
+
+          <div class="checkout__section">
+            <h2 class="checkout__section-title">Paiement</h2>
+            <div class="payment-options">
+              <label class="payment-option selected" id="opt-cash">
+                <input type="radio" name="paiement" value="cash" checked />
+                <div class="payment-option__icon">💵</div>
+                <div>
+                  <strong>Paiement à la livraison</strong>
+                  <p>Payez en espèces à la réception de votre colis</p>
+                </div>
+                <span class="payment-option__check">✓</span>
+              </label>
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn--primary checkout__submit">
+            Confirmer la commande
+          </button>
+          <p class="checkout__secure">🔒 Vos informations sont sécurisées et ne seront jamais partagées.</p>
+
+        </form>
+      </div>
+
+      <!-- RIGHT: Order summary -->
+      <div class="checkout__summary">
+        <div class="checkout__summary-inner">
+          <h2 class="checkout__summary-title">Récapitulatif</h2>
+          <div class="summary-items" id="summaryItems">
+            <p class="summary-empty">Votre panier est vide.</p>
+          </div>
+          <div class="summary-divider"></div>
+          <div class="summary-line">
+            <span>Sous-total</span>
+            <span id="summarySubtotal">0.00 DT</span>
+          </div>
+          <div class="summary-line">
+            <span>Livraison</span>
+            <span id="summaryShipping">9.00 DT</span>
+          </div>
+          <div class="summary-divider"></div>
+          <div class="summary-line summary-line--total">
+            <span>Total</span>
+            <span id="summaryTotal">0.00 DT</span>
+          </div>
+          <div class="summary-badge">
+            <span>✦</span> Chaque pièce est emballée avec soin
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- SUCCESS OVERLAY -->
+  <div class="order-success" id="orderSuccess">
+    <div class="order-success__box">
+      <div class="order-success__icon">✦</div>
+      <h2>Commande confirmée</h2>
+      <p>Merci pour votre confiance. Nous vous contacterons très prochainement pour organiser la livraison.</p>
+      <a href="index.html" class="btn btn--primary">Retour à l'accueil</a>
+    </div>
+  </div>
+
+  <div class="toast" id="toast"></div>
+  <script src="app.js"></script>
+  <script src="chatbot.js"></script>
+  <script src="commande.js"></script>
+</body>
+</html>

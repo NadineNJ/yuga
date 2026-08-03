@@ -1,0 +1,159 @@
+
+# YŪGA Sora
+
+## Product Page
+
+### Section 01 — Product Hero
+
+---
+
+## Objective
+
+Create the first impression.
+
+Present the product.
+
+Communicate its value and personality.
+
+Allow immediate purchase.
+
+---
+
+## Layout
+
+### Desktop
+
+60% Product Gallery
+
+40% Product Information
+
+---
+
+### Mobile
+
+Product Gallery
+
+↓
+
+Product Information
+
+---
+
+## Product Gallery
+
+### Gallery Type
+
+Vertical Gallery
+
+---
+
+### Images
+
+1. Hero Image
+
+2. Lifestyle Image
+
+3. Detail Texture Image
+
+4. Alternate Angle
+
+5. Interior Styling Scene
+
+---
+
+## Product Information
+
+### Collection Label
+
+YŪGA ORIGINS
+
+---
+
+### Product Name
+
+YŪGA Sora
+
+---
+
+### Product Subtitle
+
+Lampadaire Organique
+
+---
+
+### Price
+
+À définir
+
+---
+
+### Short Description
+
+Habillé à la main de corde de jute naturelle, Sora diffuse une lumière douce qui accompagne les moments de calme et de détente.
+
+Sa silhouette élancée et sa texture artisanale apportent chaleur, équilibre et caractère aux intérieurs contemporains.
+
+---
+
+### Primary CTA
+
+Ajouter au panier
+
+---
+
+### Secondary CTA
+
+Besoin d'aide ?
+
+---
+
+## Product Identity Summary
+
+Product Name:
+YŪGA Sora
+
+Subtitle:
+Lampadaire Organique
+
+Category:
+Lampadaire Décoratif
+
+Collection:
+YŪGA Origins
+
+Dimensions:
+30 cm × 120 cm
+
+Materials:
+
+* Corde de jute naturelle
+* Structure métallique recouverte de jute
+* Système électrique
+* Ampoule non incluse
+
+---
+
+## Emotional Keywords
+
+Calme
+
+Sérénité
+
+Chaleur
+
+Équilibre
+
+Douceur
+
+Intemporalité
+
+---
+
+## Status
+
+YŪGA Sora
+
+Section 01 — Product Hero
+
+APPROVED
+

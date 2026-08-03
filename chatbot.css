@@ -1,0 +1,204 @@
+/* ===========================
+   YŪGA Chatbot
+=========================== */
+.yuga-chat {
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  z-index: 350;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+/* Toggle button */
+.yuga-chat__btn {
+  width: 56px; height: 56px;
+  border-radius: 50%;
+  background: #2a1f14;
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 20px rgba(42,31,20,0.35);
+  transition: background 0.2s, transform 0.2s;
+  position: relative;
+}
+.yuga-chat__btn:hover { background: #c4a882; transform: scale(1.06); }
+.yuga-chat__unread {
+  position: absolute;
+  top: 2px; right: 2px;
+  width: 12px; height: 12px;
+  background: #e74c3c;
+  border-radius: 50%;
+  border: 2px solid white;
+  display: none;
+}
+
+/* Panel */
+.yuga-chat__panel {
+  position: absolute;
+  bottom: 70px;
+  right: 0;
+  width: 340px;
+  max-height: 500px;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 12px 48px rgba(42,31,20,0.18);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(20px) scale(0.95);
+  pointer-events: none;
+  transition: opacity 0.3s, transform 0.3s;
+  transform-origin: bottom right;
+}
+.yuga-chat__panel.open {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  pointer-events: all;
+}
+
+/* Header */
+.yuga-chat__head {
+  background: #2a1f14;
+  padding: 14px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+.yuga-chat__head-info { display: flex; align-items: center; gap: 10px; }
+.yuga-chat__avatar {
+  width: 36px; height: 36px;
+  background: #c4a882;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1rem;
+  color: white;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+.yuga-chat__name { font-size: 0.85rem; font-weight: 600; color: white; }
+.yuga-chat__status { font-size: 0.68rem; color: rgba(255,255,255,0.55); display: flex; align-items: center; gap: 4px; }
+.yuga-chat__status::before { content: ''; width: 6px; height: 6px; background: #2ecc71; border-radius: 50%; display: inline-block; }
+.yuga-chat__close { color: rgba(255,255,255,0.5); font-size: 0.9rem; cursor: pointer; border: none; background: none; transition: color 0.2s; }
+.yuga-chat__close:hover { color: white; }
+
+/* Messages */
+.yuga-chat__messages {
+  flex: 1;
+  overflow-y: auto;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: #fdfaf6;
+}
+.yuga-msg { display: flex; }
+.yuga-msg--bot { justify-content: flex-start; }
+.yuga-msg--user { justify-content: flex-end; }
+.yuga-msg__bubble {
+  max-width: 80%;
+  padding: 10px 14px;
+  border-radius: 12px;
+  font-size: 0.83rem;
+  line-height: 1.55;
+}
+.yuga-msg--bot .yuga-msg__bubble {
+  background: white;
+  color: #1a1410;
+  border: 1px solid rgba(196,168,130,0.25);
+  border-bottom-left-radius: 4px;
+}
+.yuga-msg--user .yuga-msg__bubble {
+  background: #2a1f14;
+  color: white;
+  border-bottom-right-radius: 4px;
+}
+
+/* Typing indicator */
+.yuga-typing {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  padding: 12px 14px;
+}
+.yuga-typing span {
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: #c4a882;
+  animation: typingBounce 1.2s infinite;
+}
+.yuga-typing span:nth-child(2) { animation-delay: 0.2s; }
+.yuga-typing span:nth-child(3) { animation-delay: 0.4s; }
+@keyframes typingBounce {
+  0%, 60%, 100% { transform: translateY(0); }
+  30% { transform: translateY(-6px); }
+}
+
+/* Quick suggestions */
+.yuga-chat__suggestions {
+  padding: 8px 12px;
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  background: white;
+  border-top: 1px solid rgba(196,168,130,0.15);
+  flex-shrink: 0;
+}
+.yuga-chat__suggestions button {
+  padding: 5px 12px;
+  border-radius: 20px;
+  border: 1px solid rgba(196,168,130,0.4);
+  background: transparent;
+  color: #6b5744;
+  font-size: 0.72rem;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.2s;
+}
+.yuga-chat__suggestions button:hover { background: #2a1f14; color: white; border-color: #2a1f14; }
+
+/* Input form */
+.yuga-chat__form {
+  display: flex;
+  gap: 0;
+  padding: 10px 12px;
+  background: white;
+  border-top: 1px solid rgba(196,168,130,0.2);
+  flex-shrink: 0;
+}
+.yuga-chat__form input {
+  flex: 1;
+  border: 1px solid rgba(196,168,130,0.3);
+  border-radius: 20px 0 0 20px;
+  padding: 9px 14px;
+  font-size: 0.83rem;
+  font-family: inherit;
+  outline: none;
+  color: #1a1410;
+  background: #fdfaf6;
+}
+.yuga-chat__form input:focus { border-color: #c4a882; }
+.yuga-chat__form button {
+  background: #2a1f14;
+  color: white;
+  border: none;
+  padding: 9px 14px;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: background 0.2s;
+}
+.yuga-chat__form button:hover { background: #c4a882; }
+
+@media (max-width: 420px) {
+  .yuga-chat { bottom: 16px; right: 16px; }
+  .yuga-chat__panel { width: calc(100vw - 32px); right: -8px; }
+}

@@ -1,0 +1,193 @@
+
+# YŪGA Mira
+
+## Product Page
+
+### Section 04 — Artisanat & Savoir-Faire
+
+---
+
+## Objectif
+
+Mettre en lumière le travail artisanal derrière YŪGA Mira.
+
+Créer une connexion humaine avec le produit.
+
+Valoriser le temps, le geste et les matériaux naturels qui donnent naissance à chaque pièce.
+
+Cette section rappelle que Mira n'est pas issue d'une production industrielle mais d'un processus de fabrication artisanal.
+
+---
+
+## Layout
+
+### Desktop
+
+50% Image
+
+50% Texte
+
+---
+
+### Mobile
+
+Image
+
+↓
+
+Texte
+
+---
+
+## Image
+
+### Type
+
+Photographie éditoriale artisanale
+
+---
+
+### Sujet
+
+Artisan travaillant à la main sur une création en fibres naturelles.
+
+Présence visible de corde de jute.
+
+Gestes précis.
+
+Matières naturelles.
+
+Atmosphère chaleureuse.
+
+---
+
+### Ratio
+
+4:5
+
+---
+
+### Direction Visuelle
+
+* Lumière naturelle douce
+* Atelier artisanal
+* Matières naturelles
+* Ambiance calme
+* Aucun environnement industriel
+* Aucun outil moderne mis en avant
+
+---
+
+## Eyebrow
+
+ARTISANAT & SAVOIR-FAIRE
+
+Font:
+Montserrat Medium
+
+Size:
+12px
+
+Letter Spacing:
+3px
+
+Uppercase
+
+Color:
+#7A7A7A
+
+---
+
+## Main Title
+
+Chaque pièce raconte l'histoire d'un geste.
+
+Font:
+Cormorant Garamond
+
+Desktop:
+54px
+
+Tablet:
+42px
+
+Mobile:
+34px
+
+Line Height:
+110%
+
+Color:
+#3D3A34
+
+---
+
+## Body Text
+
+Chaque YŪGA Mira est réalisée à la main avec patience et précision.
+
+La corde de jute est soigneusement travaillée autour de sa structure afin de révéler toute la richesse de sa texture naturelle.
+
+Ce processus artisanal demande du temps, de l'attention et un savoir-faire qui ne peut être reproduit à l'identique.
+
+C'est cette approche qui confère à chaque pièce son caractère unique et son authenticité.
+
+Font:
+Inter Regular
+
+Size:
+18px
+
+Line Height:
+180%
+
+Color:
+#6B665F
+
+Max Width:
+560px
+
+---
+
+## Message Clé
+
+Aucune pièce n'est parfaitement identique à une autre.
+
+Les légères variations témoignent du travail de la main et participent à la singularité de chaque création.
+
+---
+
+## Design Notes
+
+Mettre l'accent sur :
+
+* Le geste artisanal
+* La patience
+* Le savoir-faire
+* Les matières naturelles
+* L'authenticité
+
+Éviter :
+
+* Le langage industriel
+* Les arguments marketing
+* Les notions de production de masse
+* Les promesses excessives
+
+---
+
+## Objectif Émotionnel
+
+Faire comprendre au visiteur que Mira est le résultat d'un travail humain, attentif et authentique.
+
+Créer une perception de valeur fondée sur le savoir-faire plutôt que sur la simple fonctionnalité.
+
+---
+
+## Status
+
+YŪGA Mira
+
+Section 04 — Artisanat & Savoir-Faire
+
+APPROVED

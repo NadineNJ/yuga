@@ -1,0 +1,265 @@
+
+# YŪGA Mira
+
+## Product Page
+
+### Section 01 — Product Hero
+
+---
+
+## Objective
+
+Create the first impression.
+
+Present the product.
+
+Communicate its value and personality.
+
+Allow immediate purchase.
+
+---
+
+## Layout
+
+### Desktop
+
+60% Product Gallery
+
+40% Product Information
+
+---
+
+### Mobile
+
+Product Gallery
+
+↓
+
+Product Information
+
+---
+
+## Product Gallery
+
+### Gallery Type
+
+Vertical Gallery
+
+---
+
+### Images
+
+1. Hero Image
+
+2. Lifestyle Image
+
+3. Detail Texture Image
+
+4. Alternate Angle
+
+5. Interior Styling Scene
+
+---
+
+## Product Information
+
+### Collection Label
+
+YŪGA ORIGINS
+
+Font:
+Montserrat Medium
+
+Size:
+12px
+
+Letter Spacing:
+3px
+
+Text Transform:
+Uppercase
+
+Color:
+#7A7A7A
+
+---
+
+### Product Name
+
+YŪGA Mira
+
+Font:
+Cormorant Garamond
+
+Desktop:
+58px
+
+Tablet:
+42px
+
+Mobile:
+34px
+
+Color:
+#3D3A34
+
+---
+
+### Product Subtitle
+
+Miroir Organique
+
+Font:
+Inter Regular
+
+Size:
+18px
+
+Color:
+#6B665F
+
+---
+
+### Price
+
+À définir
+
+Font:
+Inter Medium
+
+Size:
+24px
+
+Color:
+#3D3A34
+
+---
+
+### Short Description
+
+Façonné à la main à partir de corde de jute naturelle, Mira associe textures organiques et formes libres pour apporter chaleur, caractère et douceur aux espaces de vie.
+
+Plus qu'un miroir, c'est une présence décorative inspirée par la nature et pensée pour traverser le temps.
+
+Font:
+Inter Regular
+
+Size:
+17px
+
+Line Height:
+170%
+
+Max Width:
+480px
+
+Color:
+#6B665F
+
+---
+
+## Primary CTA
+
+Text:
+
+Ajouter au panier
+
+Style:
+
+Solid Button
+
+Background:
+#3D3A34
+
+Text Color:
+#FFFFFF
+
+Padding:
+16px 32px
+
+Radius:
+0px
+
+Font:
+Inter Medium
+
+Size:
+14px
+
+---
+
+## Secondary CTA
+
+Text:
+
+Besoin d'aide ?
+
+Style:
+
+Text Link
+
+Font:
+Inter Medium
+
+Size:
+14px
+
+Color:
+#6B665F
+
+Hover:
+Underline
+
+---
+
+## Product Identity Summary
+
+Product Name:
+YŪGA Mira
+
+Subtitle:
+Miroir Organique
+
+Category:
+Miroir Mural Décoratif
+
+Collection:
+YŪGA Origins
+
+Dimensions:
+Diamètre 80 cm
+
+Materials:
+
+* Corde de jute naturelle
+* Structure interne en bois
+* Miroir en verre
+
+Positioning:
+Pièce décorative artisanale à forte présence visuelle, inspirée des formes libres de la nature.
+
+---
+
+## Emotional Keywords
+
+Nature
+
+Authenticité
+
+Chaleur
+
+Texture
+
+Calme
+
+Intemporalité
+
+---
+
+## Status
+
+YŪGA Mira
+
+Section 01 — Product Hero
+
+APPROVED

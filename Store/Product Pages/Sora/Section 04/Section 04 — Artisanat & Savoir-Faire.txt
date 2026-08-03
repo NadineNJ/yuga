@@ -1,0 +1,126 @@
+
+# YŪGA Sora
+
+## Product Page
+
+### Section 04 — Artisanat & Savoir-Faire
+
+---
+
+## Objectif
+
+Mettre en lumière le travail artisanal derrière YŪGA Sora.
+
+Créer une connexion humaine avec le produit.
+
+Valoriser le temps, le geste et les matériaux naturels qui donnent naissance à chaque pièce.
+
+Cette section rappelle que Sora n'est pas issue d'une production industrielle mais d'un processus de fabrication artisanal.
+
+---
+
+## Layout
+
+### Desktop
+
+50% Image
+
+50% Texte
+
+---
+
+### Mobile
+
+Image
+
+↓
+
+Texte
+
+---
+
+## Image
+
+### Type
+
+Photographie éditoriale artisanale
+
+---
+
+### Sujet
+
+Artisan travaillant à la main sur une création en fibres naturelles.
+
+Présence visible de corde de jute.
+
+Assemblage et finition manuelle.
+
+Atmosphère chaleureuse.
+
+---
+
+### Ratio
+
+4:5
+
+---
+
+## Direction Visuelle
+
+* Lumière naturelle douce
+* Atelier artisanal
+* Matières naturelles
+* Ambiance calme
+* Aucun environnement industriel
+* Aucun outil moderne mis en avant
+
+---
+
+## Eyebrow
+
+ARTISANAT & SAVOIR-FAIRE
+
+---
+
+## Main Title
+
+Chaque pièce raconte l'histoire d'un geste.
+
+---
+
+## Body Text
+
+Chaque YŪGA Sora est réalisée à la main avec patience et précision.
+
+La corde de jute est soigneusement travaillée afin d'épouser la structure et révéler toute la richesse de sa texture naturelle.
+
+Ce processus artisanal demande du temps, de l'attention et un savoir-faire qui ne peut être reproduit à l'identique.
+
+C'est cette approche qui confère à chaque pièce son caractère unique et son authenticité.
+
+---
+
+## Message Clé
+
+Aucune pièce n'est parfaitement identique à une autre.
+
+Les légères variations témoignent du travail de la main et participent à la singularité de chaque création.
+
+---
+
+## Objectif Émotionnel
+
+Faire comprendre au visiteur que Sora est le résultat d'un travail humain, attentif et authentique.
+
+Créer une perception de valeur fondée sur le savoir-faire plutôt que sur la simple fonctionnalité.
+
+---
+
+## Status
+
+YŪGA Sora
+
+Section 04 — Artisanat & Savoir-Faire
+
+APPROVED
+

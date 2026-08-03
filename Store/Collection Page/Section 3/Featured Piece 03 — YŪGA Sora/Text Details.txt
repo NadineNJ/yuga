@@ -1,0 +1,51 @@
+Featured Piece 03 — Text Content
+
+Small Label
+PIÈCE EMBLÉMATIQUE 03
+
+Title
+YŪGA Sora
+
+Subtitle
+Lampadaire Organique
+
+Description
+Élancée et sculpturale, YŪGA Sora diffuse une lumière douce à travers son tressage artisanal en fibres naturelles.
+
+Sa silhouette organique crée une présence discrète mais remarquable, apportant chaleur, texture et sérénité aux espaces de vie contemporains.
+
+CTA
+Découvrir Sora
+
+
+
+Typography
+
+Small Label
+Montserrat Medium
+14px
+Letter spacing 3px
+Title
+Cormorant Garamond
+72px
+Subtitle
+Cormorant Garamond Italic
+30px
+Description
+Montserrat Light
+20px
+CTA
+Montserrat Medium
+16px
+Uppercase
+Layout
+Featured Piece 03
+
+50% Text
+50% Image
+
+Background:
+#F8F4EE
+
+Text Color:
+#3B2E26

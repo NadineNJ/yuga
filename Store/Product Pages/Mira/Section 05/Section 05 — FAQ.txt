@@ -1,0 +1,170 @@
+
+# YŪGA Mira
+
+## Product Page
+
+### Section 05 — FAQ
+
+---
+
+## Objectif
+
+Répondre aux questions les plus fréquentes avant l'achat.
+
+Rassurer le visiteur.
+
+Réduire les hésitations.
+
+Apporter des réponses simples, claires et transparentes.
+
+---
+
+## Layout
+
+Accordion
+
+Une question ouverte à la fois.
+
+Design minimaliste.
+
+---
+
+## Section Title
+
+Questions Fréquentes
+
+Font:
+Cormorant Garamond
+
+Desktop:
+48px
+
+Tablet:
+40px
+
+Mobile:
+32px
+
+Color:
+#3D3A34
+
+---
+
+## Introduction
+
+Vous avez une question concernant YŪGA Mira ?
+
+Retrouvez ici les informations essentielles concernant sa fabrication, son entretien et son utilisation.
+
+Font:
+Inter Regular
+
+Size:
+18px
+
+Line Height:
+180%
+
+Color:
+#6B665F
+
+---
+
+## FAQ 01
+
+### Le miroir est-il fabriqué à la main ?
+
+Oui.
+
+Chaque YŪGA Mira est réalisée artisanalement à partir de matériaux naturels soigneusement sélectionnés.
+
+---
+
+## FAQ 02
+
+### Les dimensions sont-elles exactement identiques ?
+
+De légères variations peuvent exister d'une pièce à l'autre.
+
+Ces différences font partie du caractère artisanal du produit.
+
+---
+
+## FAQ 03
+
+### Quels matériaux sont utilisés ?
+
+YŪGA Mira est fabriqué à partir de corde de jute naturelle, d'une structure interne en bois et d'un miroir en verre.
+
+---
+
+## FAQ 04
+
+### Comment entretenir le produit ?
+
+Nettoyez le miroir avec un chiffon doux.
+
+La corde de jute peut être dépoussiérée régulièrement à l'aide d'un chiffon sec ou d'une brosse souple.
+
+---
+
+## FAQ 05
+
+### Où installer YŪGA Mira ?
+
+Le miroir est conçu pour une utilisation en intérieur.
+
+Il trouve naturellement sa place dans une entrée, un salon, une chambre ou un espace de vie chaleureux.
+
+---
+
+## Accordion Style
+
+Background:
+Transparent
+
+Border:
+1px solid #E5DED3
+
+Radius:
+0px
+
+Spacing:
+24px
+
+---
+
+## Typography
+
+Question:
+
+Inter Medium
+
+18px
+
+Color:
+#3D3A34
+
+---
+
+Réponse:
+
+Inter Regular
+
+16px
+
+Line Height:
+180%
+
+Color:
+#6B665F
+
+---
+
+## Status
+
+YŪGA Mira
+
+Section 05 — FAQ
+
+APPROVED

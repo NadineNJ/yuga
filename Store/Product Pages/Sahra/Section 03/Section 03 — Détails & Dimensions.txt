@@ -1,0 +1,150 @@
+
+# YŪGA Sahra
+
+## Product Page
+
+### Section 03 — Détails & Dimensions
+
+---
+
+## Objectif
+
+Fournir les informations essentielles concernant le produit.
+
+Répondre aux principales questions avant l'achat.
+
+---
+
+## Layout
+
+### Desktop
+
+40% Informations
+
+60% Image de détail
+
+---
+
+### Mobile
+
+Informations
+
+↓
+
+Image de détail
+
+---
+
+## Titre de Section
+
+Détails & Dimensions
+
+---
+
+## Informations Produit
+
+### Catégorie
+
+Suspension Décorative
+
+---
+
+### Collection
+
+YŪGA Origins
+
+---
+
+### Dimensions
+
+Largeur : 45 cm
+
+Hauteur : 110 cm
+
+Câble ajustable
+
+(Dimensions approximatives)
+
+---
+
+### Matériaux
+
+* Corde de jute naturelle
+* Structure métallique recouverte de jute
+* Système électrique
+* Ampoule non incluse
+
+---
+
+### Fabrication
+
+Réalisée entièrement à la main.
+
+Chaque pièce présente de légères variations qui témoignent de son caractère artisanal.
+
+---
+
+### Installation
+
+Suspension plafond.
+
+Longueur du câble ajustable selon l'espace.
+
+---
+
+### Entretien
+
+Dépoussiérer régulièrement à l'aide d'un chiffon sec ou d'une brosse souple.
+
+Éviter l'humidité excessive.
+
+---
+
+### Utilisation
+
+Usage intérieur uniquement.
+
+---
+
+## Image de Détail
+
+### Type
+
+Photographie Macro
+
+---
+
+### Contenu
+
+Gros plan sur les fibres naturelles.
+
+Texture artisanale visible.
+
+Jeux d'ombres et de lumière à travers les franges.
+
+---
+
+### Ratio
+
+4:5
+
+---
+
+## Objectif Émotionnel
+
+Rassurer le visiteur.
+
+Mettre en valeur la qualité des matériaux.
+
+Souligner le caractère artisanal de chaque pièce.
+
+---
+
+## Status
+
+YŪGA Sahra
+
+Section 03 — Détails & Dimensions
+
+APPROVED
+

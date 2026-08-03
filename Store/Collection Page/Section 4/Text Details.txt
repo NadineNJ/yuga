@@ -1,0 +1,69 @@
+
+SECTION 4 — COLLECTION PHILOSOPHY
+
+
+Role
+Expliquer l'âme de la collection Origins.
+
+Créer un lien émotionnel entre le visiteur et le savoir-faire artisanal derrière chaque pièce.
+
+Passer du produit à l'histoire.
+Layout
+50% Image
+50% Text
+
+Image à gauche
+Texte à droite
+Image Direction
+Artisane travaillant à la main.
+
+Fibres naturelles.
+Cordes.
+Jute.
+Textures.
+Lumière naturelle.
+
+Aucun produit final visible.
+
+Accent sur le geste artisanal.
+Small Label
+LA COLLECTION ORIGINS
+Main Title
+Inspirée par la nature.
+Façonnée à la main.
+Body Text
+Origins est une collection née de la rencontre entre matières naturelles, formes organiques et savoir-faire artisanal.
+
+Chaque pièce est conçue pour apporter chaleur, authenticité et sérénité à l’intérieur, tout en célébrant la beauté des imperfections qui rendent l’artisanat unique.
+CTA
+Découvrir notre savoir-faire
+Typography
+Small Label
+Montserrat Medium
+14px
+Letter-spacing 3px
+Majuscules
+Title
+Cormorant Garamond
+72px
+Line-height 1.05
+Body Text
+Montserrat Light
+20px
+Line-height 1.8
+CTA
+Montserrat Medium
+16px
+Uppercase
+Colors
+Background
+#F8F4EE
+Text
+#3B2E26
+Status
+Section 4
+Collection Philosophy
+
+APPROVED
+Image Approved
+Text Approved

@@ -1,0 +1,475 @@
+
+# YŪGA Product Page System
+
+## Master Structure v2.0 (Final)
+
+### Purpose
+
+Create a consistent and premium product experience across all YŪGA products.
+
+This structure applies to:
+
+* YŪGA Mira
+* YŪGA Nura
+* YŪGA Terra
+* YŪGA Sahra
+* YŪGA Sora
+
+The architecture remains identical.
+
+Only product-specific content changes.
+
+---
+
+# SECTION 01 — PRODUCT HERO
+
+## Objective
+
+Present the product.
+
+Create the first impression.
+
+Allow immediate purchase.
+
+---
+
+## Layout
+
+Desktop:
+
+60% Product Gallery
+
+40% Product Information
+
+Mobile:
+
+Gallery First
+
+Product Information Below
+
+---
+
+## Product Gallery
+
+Images:
+
+1. Hero Image
+2. Lifestyle Image
+3. Detail Texture Image
+4. Alternate Angle
+5. Interior Styling Scene
+
+Gallery Type:
+
+Vertical Gallery
+
+---
+
+## Product Information
+
+### Collection Label
+
+YŪGA ORIGINS
+
+Font:
+Montserrat Medium
+
+Size:
+12px
+
+Letter Spacing:
+3px
+
+Uppercase
+
+---
+
+### Product Name
+
+Font:
+Cormorant Garamond
+
+Size:
+58px Desktop
+
+42px Tablet
+
+34px Mobile
+
+---
+
+### Product Subtitle
+
+Font:
+Inter Regular
+
+Size:
+18px
+
+---
+
+### Price
+
+Font:
+Inter Medium
+
+Size:
+24px
+
+---
+
+### Short Description
+
+Font:
+Inter Regular
+
+Size:
+17px
+
+Line Height:
+170%
+
+Max Width:
+480px
+
+---
+
+### Primary CTA
+
+Ajouter au panier
+
+Style:
+Solid Button
+
+---
+
+### Secondary CTA
+
+Besoin d'aide ?
+
+Style:
+Text Link
+
+---
+
+# SECTION 02 — PRODUCT STORY
+
+## Objective
+
+Create emotional connection.
+
+Explain inspiration.
+
+Tell the story behind the piece.
+
+---
+
+## Layout
+
+50% Image
+
+50% Text
+
+---
+
+## Content
+
+* Inspiration
+* Nature
+* Organic Forms
+* Craftsmanship
+* Atmosphere
+
+Avoid:
+
+* Technical language
+* Specifications
+* Marketing clichés
+
+---
+
+## Typography
+
+Title:
+
+Cormorant Garamond
+
+54px
+
+Body:
+
+Inter Regular
+
+18px
+
+Line Height:
+180%
+
+---
+
+# SECTION 03 — DETAILS & DIMENSIONS
+
+## Objective
+
+Provide practical information.
+
+Answer essential questions.
+
+---
+
+## Layout
+
+Text Left
+
+Image Right
+
+---
+
+## Information
+
+Materials
+
+Dimensions
+
+Weight
+
+Installation
+
+Care Instructions
+
+Origin
+
+---
+
+## Typography
+
+Section Title:
+
+Cormorant Garamond
+
+48px
+
+Content:
+
+Inter Regular
+
+16px
+
+---
+
+# SECTION 04 — CRAFTSMANSHIP
+
+## Objective
+
+Highlight handmade production.
+
+Reinforce authenticity.
+
+---
+
+## Layout
+
+Full Width
+
+Editorial Image + Text
+
+---
+
+## Message
+
+Each YŪGA piece is handcrafted using natural materials and traditional techniques.
+
+Subtle variations are part of its unique character.
+
+No two pieces are exactly alike.
+
+---
+
+## Image Style
+
+Artisan Workshop
+
+Natural Materials
+
+Warm Light
+
+Human Touch
+
+---
+
+# SECTION 05 — STYLING INSPIRATION
+
+## Objective
+
+Help visitors imagine the product inside their own space.
+
+---
+
+## Layout
+
+3 Images Grid
+
+---
+
+## Examples
+
+Living Room
+
+Bedroom
+
+Entryway
+
+---
+
+## Image Ratio
+
+4:5
+
+---
+
+# SECTION 06 — PAIRS BEAUTIFULLY WITH
+
+## Objective
+
+Introduce complementary products naturally.
+
+Encourage collection building.
+
+---
+
+## Layout
+
+3 Product Cards
+
+---
+
+## Content
+
+Related YŪGA Origins products.
+
+Examples:
+
+Mira → Nura / Sahra / Sora
+
+Nura → Mira / Sahra / Sora
+
+Sahra → Mira / Nura / Sora
+
+---
+
+# SECTION 07 — FAQ
+
+## Objective
+
+Remove purchase hesitation.
+
+Provide practical answers.
+
+---
+
+## Layout
+
+Accordion
+
+---
+
+## Questions
+
+Is each piece handmade?
+
+What materials are used?
+
+How do I maintain the product?
+
+Are dimensions exact?
+
+How long does production take?
+
+---
+
+# VISUAL SYSTEM
+
+## Background
+
+#F8F4EE
+
+---
+
+## Primary Text
+
+#3D3A34
+
+---
+
+## Secondary Text
+
+#6B665F
+
+---
+
+## Border
+
+#E5DED3
+
+---
+
+## Radius
+
+20px
+
+---
+
+## Global Typography
+
+Display Titles:
+Cormorant Garamond
+
+Body:
+Inter
+
+Eyebrow Labels:
+Montserrat
+
+---
+
+# USER EXPERIENCE FLOW
+
+Product Hero
+
+↓
+
+Product Story
+
+↓
+
+Details & Dimensions
+
+↓
+
+Craftsmanship
+
+↓
+
+Styling Inspiration
+
+↓
+
+Pairs Beautifully With
+
+↓
+
+FAQ
+
+↓
+
+Footer
+
+---
+
+# Status
+
+YŪGA Product Page Master Structure v2.0
+
+APPROVED
+VALIDATED
+MASTER TEMPLATE

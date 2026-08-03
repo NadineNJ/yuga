@@ -1,0 +1,39 @@
+
+SECTION 4 — PRODUCT GRID
+
+Role:
+Allow visitors to explore products.
+
+Layout:
+5 products in one row.
+
+Products:
+YŪGA Mira
+YŪGA Nura
+YŪGA Terra
+YŪGA Sahra
+YŪGA Sora
+
+Card Structure:
+
+Image 1:
+Product on clean neutral background.
+
+Hover Image:
+Product inside a styled YŪGA interior.
+
+Under Product:
+
+Product Name
+
+Short Product Type
+
+Price
+
+CTA:
+View Product
+
+Style:
+Inspired by Ferm Living product grids.
+
+

@@ -1,0 +1,116 @@
+SECTION 8 — Footer
+
+Objective:
+Provide navigation, trust and brand presence while maintaining the premium YŪGA aesthetic.
+
+Background:
+Warm Beige / Ivory
+(Same palette as the website)
+
+Layout:
+4 columns maximum.
+
+Top Footer:
+
+Column 1
+
+YŪGA
+
+Natural. Timeless. Handcrafted.
+
+Creating handcrafted pieces inspired by nature, organic forms and timeless living.
+
+---
+
+Column 2
+
+SHOP
+
+Origins Collection
+
+Mira
+
+Nura
+
+Terra
+
+Sahra
+
+Sora
+
+---
+
+Column 3
+
+ABOUT
+
+Our Story
+
+Craftsmanship
+
+Materials
+
+Journal
+
+Contact
+
+---
+
+Column 4
+
+CUSTOMER CARE
+
+Shipping
+
+Returns
+
+FAQ
+
+Terms & Conditions
+
+Privacy Policy
+
+---
+
+Bottom Footer
+
+Instagram icon only
+Facebook icon only
+
+Copyright
+
+© 2026 YŪGA. All rights reserved.
+
+Visual Style
+
+No large logos.
+
+No flashy social icons.
+
+No payment logos.
+
+No trust badges.
+
+No newsletter inside footer.
+(Already present in Section 7)
+
+Typography
+
+Elegant.
+Minimal.
+Well spaced.
+
+Style References
+
+Ferm Living
+Frama
+Audo Copenhagen
+Menu
+
+Footer Goal
+
+Quiet.
+Refined.
+Premium.
+
+The footer should feel like the final page of a beautiful design book rather than a typical ecommerce footer.

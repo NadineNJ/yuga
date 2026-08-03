@@ -1,0 +1,38 @@
+
+SECTION 6 — LIVING WITH YŪGA
+
+Role:
+The feeling of living with YŪGA.
+
+Layout:
+┌───────────────────────────────────────────┐
+│                                           │
+│                                           │
+│         IMAGE                             │
+│                                           │
+│                                      100% │
+└───────────────────────────────────────────┘
+100% Full Width Image
+
+-----------Content:
+
+
+Small Label:
+MATIÈRES & SAVOIR-FAIRE
+
+
+Main Title:
+Vivre plus lentement.
+Vivre plus naturellement.
+
+ou
+L’élégance du naturel.
+
+Petit texte:
+Des objets conçus pour apporter calme,
+équilibre et authenticité à votre quotidien.
+
+
+
+CTA:
+Découvrir Origins

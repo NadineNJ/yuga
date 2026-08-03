@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin — YŪGA</title>
+  <link rel="icon" type="image/png" href="Logo/ICON.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="admin.css" />
+</head>
+<body>
+
+  <!-- LOGIN SCREEN -->
+  <div class="login-screen" id="loginScreen">
+    <div class="login-box">
+      <span class="login-logo">YŪGA</span>
+      <h2>Espace Administrateur</h2>
+      <p>Accès réservé à l'équipe YŪGA</p>
+      <form id="loginForm">
+        <div class="login-field">
+          <label>Mot de passe</label>
+          <input type="password" id="passwordInput" placeholder="••••••••" required />
+        </div>
+        <button type="submit" class="login-btn">Se connecter</button>
+        <p class="login-error" id="loginError"></p>
+      </form>
+    </div>
+  </div>
+
+  <!-- ADMIN DASHBOARD -->
+  <div class="admin" id="adminDash" style="display:none;">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar__logo">YŪGA</div>
+      <nav class="sidebar__nav">
+        <button class="sidebar__link active" data-tab="dashboard">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+          Dashboard
+        </button>
+        <button class="sidebar__link" data-tab="orders">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
+          Commandes
+        </button>
+        <button class="sidebar__link" data-tab="products">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></svg>
+          Produits
+        </button>
+      </nav>
+      <button class="sidebar__logout" id="logoutBtn">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 21H5a2 2 0 01-2-2V5a2 2 0 012-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" y1="12" x2="9" y2="12"/></svg>
+        Déconnexion
+      </button>
+    </aside>
+
+    <!-- Main -->
+    <main class="main">
+
+      <!-- Top bar -->
+      <div class="topbar">
+        <div>
+          <h1 class="topbar__title" id="pageTitle">Dashboard</h1>
+          <p class="topbar__sub">Bienvenue dans votre espace administrateur</p>
+        </div>
+        <div class="topbar__date" id="topbarDate"></div>
+      </div>
+
+      <!-- TAB: DASHBOARD -->
+      <div class="tab-content active" id="tab-dashboard">
+
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-card__icon stat-card__icon--blue">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/></svg>
+            </div>
+            <div>
+              <p class="stat-card__label">Total commandes</p>
+              <p class="stat-card__value" id="statOrders">0</p>
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-card__icon stat-card__icon--green">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>
+            </div>
+            <div>
+              <p class="stat-card__label">Chiffre d'affaires</p>
+              <p class="stat-card__value" id="statRevenue">0 DT</p>
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-card__icon stat-card__icon--orange">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <div>
+              <p class="stat-card__label">En attente</p>
+              <p class="stat-card__value" id="statPending">0</p>
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-card__icon stat-card__icon--clay">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="20 6 9 17 4 12"/></svg>
+            </div>
+            <div>
+              <p class="stat-card__label">Confirmées</p>
+              <p class="stat-card__value" id="statDone">0</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Best sellers -->
+        <div class="section-box">
+          <h3 class="section-box__title">Produits les plus vendus</h3>
+          <div class="products-sold" id="productsSold">
+            <p class="empty-msg">Aucune commande pour le moment.</p>
+          </div>
+        </div>
+
+        <!-- Recent orders -->
+        <div class="section-box">
+          <h3 class="section-box__title">Commandes récentes</h3>
+          <div id="recentOrders">
+            <p class="empty-msg">Aucune commande pour le moment.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- TAB: ORDERS -->
+      <div class="tab-content" id="tab-orders">
+        <div class="orders-toolbar">
+          <input type="text" class="search-input" id="orderSearch" placeholder="Rechercher par nom, téléphone, ID..." />
+          <select class="filter-select" id="orderFilter">
+            <option value="all">Tous les statuts</option>
+            <option value="En attente">En attente</option>
+            <option value="Confirmée">Confirmée</option>
+            <option value="Livrée">Livrée</option>
+            <option value="Annulée">Annulée</option>
+          </select>
+        </div>
+        <div id="ordersTable"></div>
+      </div>
+
+      <!-- TAB: PRODUCTS -->
+      <div class="tab-content" id="tab-products">
+        <div class="section-box">
+          <h3 class="section-box__title">Catalogue produits</h3>
+          <div class="product-catalog">
+
+            <div class="catalog-card">
+              <img src="https://cdn.converty.shop/images/0174ec9a3f047214f8dd77beafe339117ebfd12a40777a5662136176855aa909_lg.webp" alt="YŪGA Mira" />
+              <div class="catalog-card__info">
+                <h4>YŪGA Mira</h4>
+                <p>Miroir artisanal en jute</p>
+                <div class="catalog-card__prices">
+                  <span class="catalog-card__price">149.00 DT</span>
+                  <span class="catalog-card__old">179.00 DT</span>
+                </div>
+                <div class="catalog-stock">
+                  <label>Stock :</label>
+                  <input type="number" min="0" class="stock-input" id="stock-mira" value="10" onchange="updateStock('mira', this.value)" />
+                  <span class="stock-badge" id="badge-mira">Actif</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="catalog-card">
+              <img src="https://cdn.converty.shop/images/b9d2a38a07e9d9c880fcb152dcf154a3df0094820544f443d1bacba5bae0aa7c_lg.webp" alt="YŪGA Sahra" />
+              <div class="catalog-card__info">
+                <h4>YŪGA Sahra</h4>
+                <p>Suspension artisanale en jute</p>
+                <div class="catalog-card__prices">
+                  <span class="catalog-card__price">139.00 DT</span>
+                </div>
+                <div class="catalog-stock">
+                  <label>Stock :</label>
+                  <input type="number" min="0" class="stock-input" id="stock-sahra" value="10" onchange="updateStock('sahra', this.value)" />
+                  <span class="stock-badge" id="badge-sahra">Actif</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </main>
+  </div>
+
+  <!-- ORDER DETAIL MODAL -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal" id="orderModal">
+      <div class="modal__head">
+        <h3 id="modalTitle">Détail commande</h3>
+        <button class="modal__close" id="modalClose">✕</button>
+      </div>
+      <div class="modal__body" id="modalBody"></div>
+    </div>
+  </div>
+
+  <!-- CONFIRM DIALOG -->
+  <div class="confirm-overlay" id="confirmOverlay">
+    <div class="confirm-box">
+      <div class="confirm-icon">🗑</div>
+      <h3>Supprimer la commande ?</h3>
+      <p>Cette action est irréversible. La commande sera définitivement supprimée.</p>
+      <div class="confirm-actions">
+        <button class="confirm-btn confirm-btn--cancel" id="confirmCancel">Annuler</button>
+        <button class="confirm-btn confirm-btn--delete" id="confirmOk">Supprimer</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="config.js"></script>
+  <script src="admin.js"></script>
+</body>
+</html>

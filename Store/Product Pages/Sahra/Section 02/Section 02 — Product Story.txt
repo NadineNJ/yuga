@@ -1,0 +1,93 @@
+
+# YŪGA Sahra
+
+## Product Page
+
+### Section 02 — Product Story
+
+---
+
+## Objectif
+
+Créer une connexion émotionnelle avec le produit.
+
+Expliquer l'inspiration derrière YŪGA Sahra.
+
+Communiquer les valeurs de la pièce plutôt que ses caractéristiques techniques.
+
+---
+
+## Layout
+
+### Desktop
+
+50% Image
+
+50% Texte
+
+---
+
+### Mobile
+
+Image
+
+↓
+
+Texte
+
+---
+
+## Direction Visuelle
+
+Image éditoriale.
+
+Lumière naturelle.
+
+Atmosphère douce.
+
+Mouvement subtil des fibres naturelles.
+
+Sentiment de légèreté et d'équilibre.
+
+---
+
+## Eyebrow
+
+L'HISTOIRE DE SAHRA
+
+---
+
+## Main Title
+
+Inspirée par le mouvement libre de la nature.
+
+---
+
+## Body Text
+
+YŪGA Sahra s'inspire du mouvement délicat des fibres naturelles portées par le vent.
+
+Sa silhouette suspendue crée une présence aérienne qui apporte douceur, texture et poésie à l'espace.
+
+Chaque fibre est travaillée à la main afin de préserver son caractère naturel et sa richesse visuelle.
+
+Pensée comme une pièce centrale, Sahra transforme la lumière en une expérience chaleureuse et sensorielle, où matière, mouvement et équilibre se rencontrent.
+
+---
+
+## Emotional Message
+
+Sahra n'est pas simplement un luminaire.
+
+Elle apporte rythme, douceur et présence à l'espace qu'elle habite.
+
+---
+
+## Status
+
+YŪGA Sahra
+
+Section 02 — Product Story
+
+APPROVED
+

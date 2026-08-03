@@ -1,0 +1,109 @@
+
+SECTION 5 — MATERIALS & CRAFTSMANSHIP
+
+
+Role
+Présenter les matières qui composent la collection Origins.
+
+Mettre en valeur la qualité, l'authenticité et la durabilité des matériaux utilisés.
+Layout
+Centered Section
+
+Titre
+Description
+
+↓
+
+Material Grid (4 cards)
+
+Jute
+Coton
+Bois
+Céramique
+Image Direction
+Moch image lifestyle.
+
+Moch produit fini.
+
+Nheb image kima:
+
+Flatlay premium.
+
+Natural jute rope.
+Raw cotton fibers.
+Natural wood texture.
+Handcrafted ceramic pieces.
+
+Warm natural light.
+
+Editorial photography.
+
+Luxury material study.
+
+Minimal composition.
+Ratio
+16:9
+Exemple:
+
+2400 x 1350 px
+Khater hedhi image banner fou9 l material cards.
+
+Small Label
+MATIÈRES & SAVOIR-FAIRE
+Main Title
+Des matières choisies pour durer.
+Description
+Chaque matière est sélectionnée pour sa beauté naturelle, sa texture et sa capacité à traverser le temps.
+
+Associées à un travail artisanal minutieux, elles donnent naissance à des pièces authentiques conçues pour accompagner les intérieurs pendant de nombreuses années.
+
+
+
+
+
+
+
+MATERIAL CARDS
+
+Card 01
+Title
+Jute Naturelle
+Text
+Une fibre végétale robuste appréciée pour sa texture organique et son caractère authentique.
+Card 02
+Title
+Coton
+Text
+Souple et intemporel, il apporte douceur, équilibre et légèreté aux créations artisanales.
+Card 03
+Title
+Bois Naturel
+Text
+Chaleureux et vivant, chaque morceau révèle des nuances uniques propres à la matière.
+Card 04
+Title
+Céramique Artisanale
+Text
+Façonnée à la main, elle apporte profondeur, authenticité et singularité à chaque espace.
+Typography
+Small Label
+Montserrat Medium
+14px
+Letter-spacing 3px
+Main Title
+Cormorant Garamond
+72px
+Description
+Montserrat Light
+20px
+Material Titles
+Cormorant Garamond
+32px
+Material Text
+Montserrat Light
+16px
+Status
+Section 5
+Materials & Craftsmanship
+
+Ready

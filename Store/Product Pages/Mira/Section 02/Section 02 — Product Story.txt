@@ -1,0 +1,167 @@
+
+# YŪGA Mira
+
+## Product Page
+
+### Section 02 — Product Story
+
+---
+
+## Objective
+
+Créer une connexion émotionnelle avec le produit.
+
+Expliquer l'inspiration derrière YŪGA Mira.
+
+Communiquer les valeurs de la pièce plutôt que ses caractéristiques techniques.
+
+L'objectif n'est pas de décrire un miroir.
+
+L'objectif est de raconter l'histoire de Mira.
+
+---
+
+## Layout
+
+### Desktop
+
+50% Image
+
+50% Texte
+
+---
+
+### Mobile
+
+Image
+
+↓
+
+Texte
+
+---
+
+## Direction Visuelle
+
+Image éditoriale.
+
+Lumière naturelle douce.
+
+Atmosphère chaleureuse.
+
+Textures naturelles.
+
+Sentiment de calme et d'intemporalité.
+
+L'image doit susciter une émotion avant de présenter le produit.
+
+---
+
+## Eyebrow
+
+L'HISTOIRE DE MIRA
+
+Font:
+Montserrat Medium
+
+Size:
+12px
+
+Letter Spacing:
+3px
+
+Uppercase
+
+Color:
+#7A7A7A
+
+---
+
+## Main Title
+
+Inspirée par la beauté imparfaite de la nature.
+
+Font:
+Cormorant Garamond
+
+Desktop:
+54px
+
+Tablet:
+42px
+
+Mobile:
+34px
+
+Line Height:
+110%
+
+Color:
+#3D3A34
+
+---
+
+## Body Text
+
+Contrairement aux formes rigides et géométriques, Mira célèbre la douceur et la spontanéité que l'on retrouve dans la nature.
+
+Sa silhouette organique s'inspire des courbes imparfaites façonnées par le temps, le mouvement et les éléments naturels.
+
+Habillée à la main de corde de jute naturelle, chaque pièce révèle de subtiles variations qui lui confèrent un caractère unique.
+
+Pensée pour apporter chaleur, texture et équilibre à un intérieur, Mira transforme un objet du quotidien en une présence décorative discrète et intemporelle.
+
+Font:
+Inter Regular
+
+Size:
+18px
+
+Line Height:
+180%
+
+Color:
+#6B665F
+
+Max Width:
+560px
+
+---
+
+## Emotional Message
+
+Mira n'a pas été conçue pour dominer un espace.
+
+Elle a été pensée pour s'y intégrer naturellement.
+
+Sa présence est douce, authentique et intemporelle.
+
+---
+
+## Design Notes
+
+Éviter :
+
+* Les informations techniques
+* Les dimensions
+* Les matériaux détaillés
+* Le langage marketing excessif
+* Les clichés du luxe
+
+Mettre l'accent sur :
+
+* La nature
+* Les formes organiques
+* Le geste artisanal
+* L'émotion
+* L'intemporalité
+
+---
+
+## Status
+
+YŪGA Mira
+
+Section 02 — Product Story
+
+APPROVED

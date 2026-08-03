@@ -1,0 +1,88 @@
+FEATURED PIECE 02
+
+PRODUCT:
+YŪGA Sahra
+
+STATUS:
+Approved Direction
+
+LAYOUT:
+50% Text Left
+50% Image Right
+
+IMAGE DIRECTION:
+
+* Mediterranean dining room
+* Large wooden dining table
+* Natural oak wood
+* Linen table runner
+* Handcrafted ceramic tableware
+* Soft sunset light
+* Beige plaster walls
+* Large arch opening
+* Linen curtains
+* Natural shadows
+* YŪGA Sahra centered above dining table
+* Product must match original reference exactly
+* No redesign
+* No extra products
+* Editorial luxury atmosphere
+* Full-width lifestyle image
+* No text inside image
+
+SMALL LABEL:
+PIÈCE EMBLÉMATIQUE 02
+
+TITLE:
+YŪGA Sahra
+
+SUBTITLE:
+Suspension Organique à Franges
+
+DESCRIPTION:
+Avec son tressage artisanal et ses longues franges naturelles, YŪGA Sahra diffuse une lumière douce qui transforme chaque espace en un lieu chaleureux et accueillant.
+
+Pensée pour accompagner les moments de partage, elle apporte texture, caractère et authenticité aux intérieurs inspirés par la nature.
+
+CTA:
+Découvrir Sahra
+
+TYPOGRAPHY:
+
+Small Label:
+
+Montserrat Medium
+14px
+Letter Spacing: 3px
+
+Title:
+Cormorant Garamond
+72px Desktop
+48px Tablet
+36px Mobile
+
+Subtitle:
+Cormorant Garamond Italic
+30px Desktop
+24px Tablet
+20px Mobile
+
+Description:
+Montserrat Light
+20px Desktop
+18px Tablet
+16px Mobile
+
+CTA:
+Montserrat Medium
+16px
+Uppercase
+
+TEXT COLOR:
+#3B2E26
+
+ACCENT COLOR:
+#B58A5A
+
+BACKGROUND:
+#F8F4EE

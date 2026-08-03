@@ -1,0 +1,158 @@
+
+# YŪGA Nura
+
+## Product Page
+
+### Section 01 — Product Hero
+
+---
+
+## Objective
+
+Create the first impression.
+
+Present the product.
+
+Communicate its value and personality.
+
+Allow immediate purchase.
+
+---
+
+## Layout
+
+### Desktop
+
+60% Product Gallery
+
+40% Product Information
+
+---
+
+### Mobile
+
+Product Gallery
+
+↓
+
+Product Information
+
+---
+
+## Product Gallery
+
+### Gallery Type
+
+Vertical Gallery
+
+---
+
+### Images
+
+1. Hero Image
+
+2. Lifestyle Image
+
+3. Detail Texture Image
+
+4. Alternate Angle
+
+5. Interior Styling Scene
+
+---
+
+## Product Information
+
+### Collection Label
+
+YŪGA ORIGINS
+
+---
+
+### Product Name
+
+YŪGA Nura
+
+---
+
+### Product Subtitle
+
+Lampe de Table Organique
+
+---
+
+### Price
+
+À définir
+
+---
+
+### Short Description
+
+Habillée à la main de corde de jute naturelle, Nura diffuse une lumière douce qui réchauffe l'atmosphère et révèle la beauté des matières naturelles.
+
+Pensée comme un objet lumineux et décoratif, elle apporte calme, texture et caractère aux espaces du quotidien.
+
+---
+
+### Primary CTA
+
+Ajouter au panier
+
+---
+
+### Secondary CTA
+
+Besoin d'aide ?
+
+---
+
+## Product Identity Summary
+
+Product Name:
+YŪGA Nura
+
+Subtitle:
+Lampe de Table Organique
+
+Category:
+Lampe de Table Décorative
+
+Collection:
+YŪGA Origins
+
+Dimensions:
+25 cm × 33 cm
+
+Materials:
+
+* Corde de jute naturelle
+* Structure interne en fer
+* Système d'éclairage intégré
+
+---
+
+## Emotional Keywords
+
+Lumière
+
+Chaleur
+
+Douceur
+
+Nature
+
+Sérénité
+
+Authenticité
+
+---
+
+## Status
+
+YŪGA Nura
+
+Section 01 — Product Hero
+
+APPROVED
+

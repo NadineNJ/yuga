@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YŪGA</title>
+  <link rel="icon" type="image/png" href="Logo/ICON.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="chatbot.css" />
+</head>
+<body>
+
+  <!-- ANNOUNCEMENT BAR -->
+  <div class="announcement-bar">
+    <span>Livraison gratuite dès 199 DT d'achat</span>
+    <span class="dot">·</span>
+    <span>Chaque pièce est façonnée à la main</span>
+    <span class="dot">·</span>
+    <span>Livraison sur toute la Tunisie</span>
+  </div>
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <nav class="nav">
+      <div class="nav__left">
+        <a href="#products" class="nav__link">Nouveautés</a>
+        <a href="#story" class="nav__link">Notre Histoire</a>
+      </div>
+      <a href="#" class="nav__logo">YŪGA</a>
+      <div class="nav__right">
+        <a href="#faq" class="nav__link">FAQ</a>
+        <button class="nav__cart" aria-label="Panier">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/>
+            <line x1="3" y1="6" x2="21" y2="6"/>
+            <path d="M16 10a4 4 0 01-8 0"/>
+          </svg>
+          <span class="cart-count">0</span>
+        </button>
+
+      </div>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__bg">
+      <img src="https://cdn.converty.shop/images/4e68e8ccf9ef37819d308fab1745bf384a199940e034f66eeb0c0edb754af911_lg.webp" alt="YŪGA hero" class="hero__bg-img" />
+      <div class="hero__overlay"></div>
+      <div class="hero__noise"></div>
+    </div>
+    <div class="hero__content">
+      <p class="hero__eyebrow reveal">Artisanat Tunisien</p>
+      <h1 class="hero__title reveal">
+        <span>L'art</span>
+        <em>du fait main</em>
+      </h1>
+      <p class="hero__sub reveal">Des pièces nées de matières naturelles, de gestes artisanaux<br>et d'un design intemporel façonnées pour durer.</p>
+      <div class="hero__actions reveal">
+        <a href="#products" class="btn btn--primary">Découvrir nos produits</a>
+        <a href="#story" class="btn btn--ghost">Notre histoire</a>
+      </div>
+    </div>
+    <div class="hero__scroll">
+      <span></span>
+    </div>
+    <!-- floating shapes -->
+    <div class="hero__shape hero__shape--1"></div>
+    <div class="hero__shape hero__shape--2"></div>
+  </section>
+
+
+
+
+
+  <!-- MARQUEE STRIP -->
+  <div class="marquee-strip">
+    <div class="marquee-track">
+      <span>Artisanat tunisien</span><span class="sep">✦</span>
+      <span>Pièces uniques</span><span class="sep">✦</span>
+      <span>Fait à la main</span><span class="sep">✦</span>
+      <span>Matières naturelles</span><span class="sep">✦</span>
+      <span>Design intemporel</span><span class="sep">✦</span>
+      <span>Artisanat tunisien</span><span class="sep">✦</span>
+      <span>Pièces uniques</span><span class="sep">✦</span>
+      <span>Fait à la main</span><span class="sep">✦</span>
+      <span>Matières naturelles</span><span class="sep">✦</span>
+      <span>Design intemporel</span><span class="sep">✦</span>
+    </div>
+  </div>
+
+  <!-- SIGNATURE PRODUCTS -->
+  <section class="products" id="products">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-tag">Best-sellers</p>
+        <h2 class="section-title">Pièces Signature</h2>
+      </div>
+      <div class="products__grid">
+
+        <div class="product-card reveal">
+          <div class="product-card__img-wrap">
+            <div class="product-card__slider" data-index="0">
+              <img class="product-card__img active" src="https://cdn.converty.shop/images/0174ec9a3f047214f8dd77beafe339117ebfd12a40777a5662136176855aa909_lg.webp" alt="YŪGA Mira 1" />
+              <img class="product-card__img" src="https://cdn.converty.shop/images/b7fb28e4cbac5d700de778d76370052bbc2e8af2c4be4e94ce66d8b85c18ff27_lg.webp" alt="YŪGA Mira 2" />
+              <img class="product-card__img" src="https://cdn.converty.shop/images/9a15b02a340056c35ff47f4662160144e8608b4dc3a83b15c07524dd6221a162_lg.webp" alt="YŪGA Mira 3" />
+            </div>
+            <div class="product-card__dots">
+              <span class="dot active"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+            </div>
+            <div class="product-card__badge">-17%</div>
+            <button class="product-card__cart-btn" data-product="YŪGA Mira" data-price="149" aria-label="Ajouter au panier">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
+            </button>
+          </div>
+          <div class="product-card__body">
+            <p class="product-card__name">YŪGA Mira</p>
+            <div class="product-card__pricing">
+              <span class="product-card__price">149.00 DT</span>
+              <span class="product-card__old-price">179.00 DT</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card reveal">
+          <div class="product-card__img-wrap">
+            <div class="product-card__slider" data-index="0">
+              <img class="product-card__img active" src="https://cdn.converty.shop/images/b9d2a38a07e9d9c880fcb152dcf154a3df0094820544f443d1bacba5bae0aa7c_lg.webp" alt="YŪGA Sahra 1" />
+              <img class="product-card__img" src="https://cdn.converty.shop/images/09a2a9e2bf6c52f5f04a3d2d93168f069ed38cdacd95d3f60bc3b8fcf7584d56_lg.webp" alt="YŪGA Sahra 2" />
+              <img class="product-card__img" src="https://cdn.converty.shop/images/b358c8400eb6f0360574e1d9faf5f79a27136627b00d07290760347ea3fc8a9d_lg.webp" alt="YŪGA Sahra 3" />
+            </div>
+            <div class="product-card__dots">
+              <span class="dot active"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+            </div>
+            <button class="product-card__cart-btn" data-product="YŪGA Sahra" data-price="139" aria-label="Ajouter au panier">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
+            </button>
+          </div>
+          <div class="product-card__body">
+            <p class="product-card__name">YŪGA Sahra</p>
+            <div class="product-card__pricing">
+              <span class="product-card__price">139.00 DT</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="products__footer reveal">
+        <a href="produits.html" class="btn btn--outline">Voir tous les produits</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- STORY SECTION -->
+  <section class="story" id="story">
+    <div class="story__inner">
+      <div class="story__visual reveal">
+        <div class="story__img-block">
+          <img class="story__img-main" src="https://cdn.converty.shop/images/4e68e8ccf9ef37819d308fab1745bf384a199940e034f66eeb0c0edb754af911_lg.webp" alt="L'art du fait main" loading="lazy" />
+          <img class="story__img-accent" src="https://cdn.converty.shop/images/ec9ec5f3f295c4e78d9904eba97332bc415759b69cf631b17d202a1162267ee4_lg.webp" alt="Détail artisanal" loading="lazy" />
+        </div>
+      </div>
+      <div class="story__text reveal">
+        <p class="section-tag">Notre Histoire</p>
+        <h2 class="section-title">L'art du fait main</h2>
+        <p class="story__body">
+          Chez YŪGA, chaque pièce naît de la rencontre entre matières naturelles, gestes artisanaux et design intemporel. Nos créations sont façonnées à la main pour apporter chaleur, authenticité et caractère à chaque intérieur.
+        </p>
+        <p class="story__body">
+          Nous sélectionnons avec soin le jute, le coton, le bois et d'autres fibres naturelles pour leur beauté et leur durabilité des matières qui vieillissent bien et racontent une histoire.
+        </p>
+        <div class="story__values">
+          <div class="story__value">
+            <div class="story__value-icon">◈</div>
+            <div>
+              <strong>Matières naturelles</strong>
+              <p>Jute, coton, bois sélectionnés</p>
+            </div>
+          </div>
+          <div class="story__value">
+            <div class="story__value-icon">◈</div>
+            <div>
+              <strong>Pièces uniques</strong>
+              <p>Légères variations, caractère authentique</p>
+            </div>
+          </div>
+          <div class="story__value">
+            <div class="story__value-icon">◈</div>
+            <div>
+              <strong>Artisans sélectionnés</strong>
+              <p>Savoir-faire transmis, finitions soignées</p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS STRIP -->
+  <section class="process">
+    <div class="container">
+      <div class="process__grid">
+        <div class="process__step reveal">
+          <span class="process__num">01</span>
+          <h4>Sélection des matières</h4>
+          <p>Des fibres naturelles choisies pour leur authenticité et leur longévité.</p>
+        </div>
+        <div class="process__divider"></div>
+        <div class="process__step reveal">
+          <span class="process__num">02</span>
+          <h4>Façonnage artisanal</h4>
+          <p>Chaque pièce travaillée à la main par des artisans expérimentés.</p>
+        </div>
+        <div class="process__divider"></div>
+        <div class="process__step reveal">
+          <span class="process__num">03</span>
+          <h4>Contrôle qualité</h4>
+          <p>Une inspection rigoureuse avant chaque expédition.</p>
+        </div>
+        <div class="process__divider"></div>
+        <div class="process__step reveal">
+          <span class="process__num">04</span>
+          <h4>Livraison soignée</h4>
+          <p>Un emballage pensé pour protéger et sublimer chaque création.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-tag">FAQ</p>
+        <h2 class="section-title">Questions fréquentes</h2>
+        <p class="section-sub">Tout ce que vous devez savoir sur nos créations, la livraison et l'entretien.</p>
+      </div>
+      <div class="faq__list">
+
+        <div class="faq__item reveal">
+          <button class="faq__question" aria-expanded="false">
+            Les pièces YŪGA sont-elles fabriquées à la main ?
+            <span class="faq__icon">+</span>
+          </button>
+          <div class="faq__answer">
+            <p>Chaque création YŪGA est réalisée à la main par des artisans sélectionnés, avec une attention particulière portée aux détails, aux matières naturelles et à la qualité de finition.</p>
+          </div>
+        </div>
+
+        <div class="faq__item reveal">
+          <button class="faq__question" aria-expanded="false">
+            Les matériaux utilisés sont-ils naturels ?
+            <span class="faq__icon">+</span>
+          </button>
+          <div class="faq__answer">
+            <p>Nous privilégions des matériaux naturels et authentiques tels que le jute, le coton, le bois et d'autres fibres sélectionnées pour leur beauté et leur durabilité.</p>
+          </div>
+        </div>
+
+        <div class="faq__item reveal">
+          <button class="faq__question" aria-expanded="false">
+            Chaque pièce est-elle identique ?
+            <span class="faq__icon">+</span>
+          </button>
+          <div class="faq__answer">
+            <p>Non. Les légères variations de texture, de forme ou de finition font partie du caractère unique de chaque création artisanale et témoignent du travail manuel.</p>
+          </div>
+        </div>
+
+        <div class="faq__item reveal">
+          <button class="faq__question" aria-expanded="false">
+            Livrez-vous dans toute la Tunisie ?
+            <span class="faq__icon">+</span>
+          </button>
+          <div class="faq__answer">
+            <p>Oui, nous assurons la livraison sur l'ensemble du territoire tunisien avec un emballage soigneusement préparé pour protéger chaque pièce.</p>
+          </div>
+        </div>
+
+        <div class="faq__item reveal">
+          <button class="faq__question" aria-expanded="false">
+            Comment entretenir les créations YŪGA ?
+            <span class="faq__icon">+</span>
+          </button>
+          <div class="faq__answer">
+            <p>Un dépoussiérage régulier à l'aide d'un chiffon doux ou d'une brosse souple suffit généralement pour préserver la beauté des matériaux naturels au fil du temps.</p>
+          </div>
+        </div>
+
+      </div>
+      <p class="faq__contact reveal">
+        Une question particulière ? <a href="#contact">Nous serons ravis de vous accompagner → </a>
+      </p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="contact-inner reveal">
+        <div class="contact-text">
+          <p class="section-tag">Nous contacter</p>
+          <h2 class="section-title">Une question ?</h2>
+          <p class="contact-sub">Notre équipe vous répond dans les plus brefs délais. N'hésitez pas à nous écrire pour toute demande.</p>
+          <div class="contact-info">
+            <a href="https://www.instagram.com/yuga.universe" target="_blank" rel="noopener" class="contact-social">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+              @yuga.universe
+            </a>
+            <a href="https://www.facebook.com/yuga.universe" target="_blank" rel="noopener" class="contact-social">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+              yuga.universe
+            </a>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <div class="contact-form__group">
+            <input type="text" id="contact_name" name="nom" placeholder="Votre nom" required />
+          </div>
+          <div class="contact-form__group">
+            <input type="email" id="contact_email" name="email" placeholder="Votre adresse e-mail" required />
+          </div>
+          <div class="contact-form__group">
+            <textarea id="contact_message" name="message" rows="4" placeholder="Votre message..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary contact-form__submit" id="contactSubmit">Envoyer le message</button>
+          <p class="contact-form__note" id="contactNote"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <a href="#" class="footer__logo">YŪGA</a>
+          <p>L'art du fait main des pièces façonnées à la main pour apporter chaleur et caractère à chaque intérieur.</p>
+          <div class="footer__social">
+            <a href="https://www.facebook.com/yuga.universe" target="_blank" rel="noopener" aria-label="Facebook">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+            </a>
+            <a href="https://www.instagram.com/yuga.universe" target="_blank" rel="noopener" aria-label="Instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer__nav">
+          <div class="footer__col">
+            <h5>Pour toi</h5>
+            <a href="produits.html">Nouveautés</a>
+            <a href="#">Panier</a>
+          </div>
+          <div class="footer__col">
+            <h5>Infos</h5>
+            <a href="#story">À propos</a>
+            <a href="#faq">FAQ</a>
+            <a href="#contact">Contact</a>
+          </div>
+          <div class="footer__col">
+            <h5>Légal</h5>
+            <a href="termes.html">Termes & Conditions</a>
+            <a href="confidentialite.html">Confidentialité</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>© 2026 YŪGA - Tous droits réservés.</p>
+        <p>Tunisie. Artisanat Tunisien. YŪGA.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- CART DRAWER -->
+  <div class="cart-drawer" id="cartDrawer" aria-hidden="true">
+    <div class="cart-drawer__overlay" id="cartOverlay"></div>
+    <div class="cart-drawer__panel">
+      <div class="cart-drawer__head">
+        <h3>Panier</h3>
+        <button class="cart-drawer__close" id="cartClose" aria-label="Fermer">✕</button>
+      </div>
+      <div class="cart-drawer__body" id="cartBody">
+        <p class="cart-drawer__empty">Votre panier est vide.</p>
+      </div>
+      <div class="cart-drawer__footer">
+        <div class="cart-drawer__total">
+          <span>Total</span>
+          <span id="cartTotal">0.00 DT</span>
+        </div>
+        <button class="btn btn--primary cart-drawer__checkout">Passer la commande</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- TOAST -->
+  <!-- COOKIE BANNER -->
+  <div class="cookie-banner" id="cookieBanner">
+    <div class="cookie-banner__text">
+      <p>🍪 Nous utilisons des cookies pour améliorer votre expérience. En continuant, vous acceptez notre <a href="confidentialite.html">politique de confidentialité</a>.</p>
+    </div>
+    <div class="cookie-banner__actions">
+      <button class="cookie-btn cookie-btn--accept" id="cookieAccept">Accepter</button>
+      <button class="cookie-btn cookie-btn--decline" id="cookieDecline">Refuser</button>
+    </div>
+  </div>
+
+  <div class="toast" id="toast"></div>
+  <script src="config.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script>emailjs.init(YUGA_CONFIG.emailjs.publicKey);</script>
+  <script src="app.js"></script>
+  <script src="chatbot.js"></script>
+</body>
+</html>

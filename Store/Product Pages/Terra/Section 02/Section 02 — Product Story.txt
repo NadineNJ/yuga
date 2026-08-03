@@ -1,0 +1,93 @@
+
+# YŪGA Terra
+
+## Product Page
+
+### Section 02 — Product Story
+
+---
+
+## Objectif
+
+Créer une connexion émotionnelle avec le produit.
+
+Expliquer l'inspiration derrière YŪGA Terra.
+
+Communiquer les valeurs de la pièce plutôt que ses caractéristiques techniques.
+
+---
+
+## Layout
+
+### Desktop
+
+50% Image
+
+50% Texte
+
+---
+
+### Mobile
+
+Image
+
+↓
+
+Texte
+
+---
+
+## Direction Visuelle
+
+Image éditoriale.
+
+Lumière naturelle.
+
+Atmosphère chaleureuse.
+
+Textures naturelles.
+
+Sentiment d'équilibre et de simplicité.
+
+---
+
+## Eyebrow
+
+L'HISTOIRE DE TERRA
+
+---
+
+## Main Title
+
+Inspirée par la beauté des formes essentielles.
+
+---
+
+## Body Text
+
+YŪGA Terra s'inspire de l'équilibre naturel que l'on retrouve dans les formes les plus simples.
+
+Sa silhouette épurée laisse s'exprimer pleinement la richesse de la matière et la beauté du geste artisanal.
+
+Habillée à la main de corde de jute naturelle, elle diffuse une lumière douce qui apporte chaleur et harmonie à l'espace.
+
+Pensée pour traverser le temps, Terra privilégie l'authenticité, la simplicité et la présence discrète des matières naturelles.
+
+---
+
+## Emotional Message
+
+Terra ne cherche pas à attirer l'attention.
+
+Elle apporte naturellement équilibre, douceur et authenticité à l'espace.
+
+---
+
+## Status
+
+YŪGA Terra
+
+Section 02 — Product Story
+
+APPROVED
+

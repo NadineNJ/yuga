@@ -1,0 +1,123 @@
+
+# YŪGA Nura
+
+## Product Page
+
+### Section 05 — FAQ
+
+---
+
+## Objectif
+
+Répondre aux questions les plus fréquentes avant l'achat.
+
+Rassurer le visiteur.
+
+Réduire les hésitations.
+
+Apporter des réponses simples, claires et transparentes.
+
+---
+
+## Layout
+
+Accordion
+
+Une question ouverte à la fois.
+
+Design minimaliste.
+
+---
+
+## Section Title
+
+Questions Fréquentes
+
+---
+
+## Introduction
+
+Vous avez une question concernant YŪGA Nura ?
+
+Retrouvez ici les informations essentielles concernant sa fabrication, son entretien et son utilisation.
+
+---
+
+## FAQ 01
+
+### La lampe est-elle fabriquée à la main ?
+
+Oui.
+
+Chaque YŪGA Nura est réalisée artisanalement à partir de matériaux naturels soigneusement sélectionnés.
+
+---
+
+## FAQ 02
+
+### Les dimensions sont-elles exactement identiques ?
+
+De légères variations peuvent exister d'une pièce à l'autre.
+
+Ces différences font partie du caractère artisanal du produit.
+
+---
+
+## FAQ 03
+
+### Quels matériaux sont utilisés ?
+
+YŪGA Nura est fabriquée à partir de corde de jute naturelle, d'une structure interne en fer et d'un système d'éclairage intégré.
+
+---
+
+## FAQ 04
+
+### L'ampoule est-elle incluse ?
+
+Les spécifications finales seront confirmées lors du lancement officiel du produit.
+
+---
+
+## FAQ 05
+
+### Où installer YŪGA Nura ?
+
+Nura trouve naturellement sa place sur une console, une table d'appoint, une table de chevet ou dans un coin lecture.
+
+---
+
+## FAQ 06
+
+### La lampe est-elle destinée à un usage intérieur ?
+
+Oui.
+
+YŪGA Nura est conçue exclusivement pour un usage intérieur.
+
+---
+
+## Accordion Style
+
+Background:
+Transparent
+
+Border:
+1px solid #E5DED3
+
+Radius:
+0px
+
+Spacing:
+24px
+
+---
+
+## Status
+
+YŪGA Nura
+
+Section 05 — FAQ
+
+APPROVED
+

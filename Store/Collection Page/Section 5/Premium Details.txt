@@ -1,0 +1,232 @@
+# SECTION 5 — MATIÈRES & SAVOIR-FAIRE
+
+## Objectif
+
+Mettre en valeur les matières premières et le savoir-faire artisanal qui définissent la collection YŪGA Origins.
+
+Cette section intervient après les Featured Pieces et avant la suite de l'expérience de collection.
+
+Elle permet au visiteur de comprendre que chaque création YŪGA repose sur des matières naturelles sélectionnées avec soin et un travail artisanal authentique.
+
+---
+
+## Structure
+
+### Bloc 01 — Introduction
+
+#### Small Label
+
+MATIÈRES & SAVOIR-FAIRE
+
+#### Main Title
+
+Des matières choisies pour durer.
+
+#### Description
+
+Chaque création YŪGA prend naissance à partir de matières naturelles sélectionnées pour leur authenticité, leur beauté et leur durabilité.
+
+Du jute aux fibres tressées à la main, du bois naturel à la céramique artisanale, chaque élément participe à créer des objets intemporels conçus pour traverser les années.
+
+---
+
+### Bloc 02 — Banner Image
+
+#### Type
+
+Image éditoriale pleine largeur
+
+#### Ratio
+
+16:9
+
+#### Style
+
+Flatlay premium de matières naturelles.
+
+#### Éléments présents
+
+* Jute naturelle
+* Fibres tressées
+* Échantillons de bois naturel
+* Céramique artisanale
+* Textile naturel
+
+#### Direction artistique
+
+* Minimaliste
+* Premium
+* Scandinave
+* Méditerranéenne
+* Tons beige, ivoire et bois naturel
+* Lumière naturelle douce
+* Aucune présence humaine
+* Aucun produit fini
+
+---
+
+### Bloc 03 — Material Cards Grid
+
+#### Layout Desktop
+
+2 colonnes × 2 lignes
+
+#### Layout Mobile
+
+1 colonne
+
+---
+
+# CARD 01
+
+## Image
+
+Texture macro de jute naturelle
+
+Ratio : 1:1
+
+## Titre
+
+Jute Naturelle
+
+## Description
+
+Fibre végétale reconnue pour sa résistance, sa texture organique et son caractère authentique.
+
+Elle apporte chaleur, relief et naturel à chaque création.
+
+---
+
+# CARD 02
+
+## Image
+
+Texture macro de tressage artisanal (macramé)
+
+Ratio : 1:1
+
+## Titre
+
+Tressage Artisanal
+
+## Description
+
+Chaque tressage est réalisé à la main selon des techniques artisanales qui révèlent toute la richesse des fibres naturelles.
+
+Un savoir-faire qui confère à chaque pièce son caractère unique.
+
+---
+
+# CARD 03
+
+## Image
+
+Texture macro de bois naturel
+
+Ratio : 1:1
+
+## Titre
+
+Bois Naturel
+
+## Description
+
+Chaque pièce révèle un veinage unique qui raconte sa propre histoire.
+
+Une matière vivante qui apporte chaleur et authenticité à l'espace.
+
+---
+
+# CARD 04
+
+## Image
+
+Texture macro de céramique artisanale
+
+Ratio : 1:1
+
+## Titre
+
+Céramique Artisanale
+
+## Description
+
+Façonnée avec soin, la céramique artisanale se distingue par ses nuances subtiles et ses imperfections naturelles.
+
+Chaque surface révèle le caractère unique du travail de la main.
+
+---
+
+## Style Visuel
+
+### Background
+
+#F8F4EE
+
+### Border
+
+1px solid #E5DED3
+
+### Border Radius
+
+20px
+
+### Padding
+
+40px
+
+---
+
+## Typography
+
+### Small Label
+
+Montserrat Medium
+
+14px
+
+Letter Spacing: 2px
+
+Uppercase
+
+---
+
+### Main Title
+
+Cormorant Garamond
+
+60px
+
+Desktop
+
+42px
+
+Tablet
+
+34px
+
+Mobile
+
+---
+
+### Card Title
+
+Cormorant Garamond
+
+32px
+
+---
+
+### Body Text
+
+Montserrat Light
+
+16px
+
+Line Height: 1.8
+
+---
+
+## Status
+
+SECTION 5 — APPROUVÉE

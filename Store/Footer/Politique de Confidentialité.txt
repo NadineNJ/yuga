@@ -1,0 +1,93 @@
+# YŪGA | Politique de Confidentialité
+
+### Version 1.0
+
+---
+
+# Politique de Confidentialité
+
+Chez YŪGA, nous accordons une grande importance à la protection de vos données personnelles.
+
+La présente Politique de Confidentialité explique quelles informations nous collectons, comment nous les utilisons et les mesures mises en œuvre pour assurer leur sécurité.
+
+---
+
+# 1. Les informations collectées
+
+Lors de votre navigation ou de votre commande, nous pouvons collecter les informations suivantes :
+
+* Nom et prénom
+* Adresse de livraison
+* Adresse e-mail
+* Numéro de téléphone
+* Informations relatives à votre commande
+* Informations techniques liées à votre navigation sur le site
+
+---
+
+# 2. Utilisation de vos données
+
+Les informations collectées sont utilisées uniquement pour :
+
+* traiter vos commandes ;
+* assurer la livraison ;
+* répondre à vos demandes ;
+* améliorer votre expérience sur notre site ;
+* communiquer avec vous concernant votre commande ou nos services.
+
+Nous ne vendons jamais vos données personnelles à des tiers.
+
+---
+
+# 3. Paiements sécurisés
+
+Les paiements effectués par carte bancaire sont traités via une solution de paiement sécurisée.
+
+YŪGA ne conserve jamais les informations complètes relatives à votre carte bancaire.
+
+---
+
+# 4. Cookies
+
+Notre site utilise des cookies afin d'améliorer votre navigation et de mesurer les performances du site.
+
+Vous pouvez à tout moment gérer vos préférences via les paramètres de votre navigateur.
+
+---
+
+# 5. Conservation des données
+
+Vos données personnelles sont conservées uniquement pendant la durée nécessaire au traitement de votre commande, au respect de nos obligations légales ou à l'amélioration de nos services.
+
+---
+
+# 6. Sécurité
+
+Nous mettons en œuvre des mesures techniques et organisationnelles destinées à protéger vos informations contre tout accès non autorisé, toute perte ou toute utilisation abusive.
+
+---
+
+# 7. Vos droits
+
+Vous pouvez à tout moment demander :
+
+* l'accès à vos données personnelles ;
+* leur correction ;
+* leur suppression lorsque cela est possible ;
+* des informations concernant leur utilisation.
+
+Pour toute demande, vous pouvez nous contacter directement.
+
+---
+
+# 8. Modifications
+
+YŪGA se réserve le droit de modifier la présente Politique de Confidentialité afin de tenir compte des évolutions légales ou de l'amélioration de ses services.
+
+Toute modification sera publiée sur cette page.
+
+---
+
+# Contact
+
+Pour toute question relative à la protection de vos données personnelles, vous pouvez nous contacter via les coordonnées disponibles sur notre page Contact.

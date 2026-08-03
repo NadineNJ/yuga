@@ -1,0 +1,203 @@
+
+# YŪGA Collection Page
+
+## Section 07 — Origins Philosophy
+
+### Objective
+
+Explain the soul behind the Origins collection.
+
+This section is not product-focused.
+
+Its purpose is to communicate the values, inspiration and philosophy that guide every YŪGA creation.
+
+Visitors should understand that Origins is not simply a collection of objects.
+
+It is a reflection of slower living, natural materials and artisan craftsmanship.
+
+---
+
+## Layout
+
+Desktop:
+
+2 Columns
+
+Left:
+
+* Image (Artisan Workshop)
+* Width: 50%
+
+Right:
+
+* Text Block
+* Width: 50%
+
+Vertical Alignment:
+Centered
+
+Section Padding:
+140px Top
+140px Bottom
+
+Content Max Width:
+1400px
+
+---
+
+## Visual Asset
+
+Image:
+Origins Philosophy Workshop Image
+
+Ratio:
+4:5 Vertical
+
+Style:
+Editorial Artisan Photography
+
+Status:
+Validated
+
+---
+
+## Text Structure
+
+### Eyebrow
+
+ORIGINS COLLECTION
+
+Font:
+Montserrat Medium
+
+Size:
+12px
+
+Letter Spacing:
+3px
+
+Text Transform:
+Uppercase
+
+Color:
+#7A7A7A
+
+---
+
+### Main Title
+
+Designed with Time.
+Crafted with Intention.
+
+Font:
+Cormorant Garamond
+
+Weight:
+Regular
+
+Size:
+Desktop: 54px
+
+Tablet: 42px
+
+Mobile: 34px
+
+Line Height:
+110%
+
+Color:
+#3D3A34
+
+---
+
+### Body Text
+
+Every YŪGA piece begins long before it enters a home.
+
+Origins is a celebration of natural materials, artisan gestures and timeless forms inspired by nature.
+
+From hand-selected fibers and wood to carefully crafted details, each creation reflects a slower and more intentional approach to design.
+
+Rather than following trends, Origins embraces authenticity, warmth and permanence — creating objects that bring balance and character to everyday spaces.
+
+Font:
+Inter Regular
+
+Size:
+18px
+
+Line Height:
+180%
+
+Color:
+#6B665F
+
+Max Width:
+560px
+
+---
+
+### CTA Button
+
+Text:
+
+Explore Origins
+
+Style:
+Minimal Outline Button
+
+Border:
+1px solid #3D3A34
+
+Border Radius:
+0px
+
+Padding:
+16px 32px
+
+Font:
+Inter Medium
+
+Size:
+14px
+
+Letter Spacing:
+1px
+
+Hover:
+Dark Background
+Light Text
+
+---
+
+## Emotional Goal
+
+The visitor should feel:
+
+* Authenticity
+* Human craftsmanship
+* Calmness
+* Permanence
+* Emotional connection
+
+The section should communicate that YŪGA objects are created with patience, care and purpose.
+
+---
+
+## Design Notes
+
+Avoid:
+
+* Marketing language
+* Luxury clichés
+* Excessive storytelling
+* Long paragraphs
+
+Focus on:
+
+* Simplicity
+* Authenticity
+* Craftsmanship
+* Natural beauty
+
+This section acts as the emotional bridge between the collection showcase and the product exploration journey.
