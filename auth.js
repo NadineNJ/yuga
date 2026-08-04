@@ -28,11 +28,23 @@ if (getCurrentUser()) {
 function showLogin() {
   document.getElementById('loginBox').style.display = '';
   document.getElementById('registerBox').style.display = 'none';
+  document.getElementById('forgotBox').style.display = 'none';
+  document.getElementById('resetBox').style.display = 'none';
 }
 function showRegister() {
   document.getElementById('loginBox').style.display = 'none';
   document.getElementById('registerBox').style.display = '';
+  document.getElementById('forgotBox').style.display = 'none';
+  document.getElementById('resetBox').style.display = 'none';
 }
+function showForgotPassword() {
+  document.getElementById('loginBox').style.display = 'none';
+  document.getElementById('registerBox').style.display = 'none';
+  document.getElementById('forgotBox').style.display = '';
+  document.getElementById('resetBox').style.display = 'none';
+}
+
+let resetUserEmail = ''; // Store email for password reset
 
 /* --- Login --- */
 document.getElementById('loginForm').addEventListener('submit', e => {
@@ -85,4 +97,65 @@ document.getElementById('registerForm').addEventListener('submit', e => {
 
   const redir = new URLSearchParams(window.location.search).get('redirect') || 'index.html';
   window.location.href = redir;
+});
+
+/* --- Forgot Password --- */
+document.getElementById('forgotForm').addEventListener('submit', e => {
+  e.preventDefault();
+  const email = document.getElementById('forgotEmail').value.trim();
+  const err   = document.getElementById('forgotError');
+
+  err.textContent = '';
+
+  if (!emailRegex.test(email)) { err.textContent = 'Adresse e-mail invalide.'; return; }
+
+  const users = getUsers();
+  const user  = users.find(u => u.email === email);
+  if (!user) { err.textContent = 'Aucun compte associé à cet email.'; return; }
+
+  // Store email and show reset form
+  resetUserEmail = email;
+  document.getElementById('forgotBox').style.display = 'none';
+  document.getElementById('resetBox').style.display = '';
+  document.getElementById('resetPassword').value = '';
+  document.getElementById('resetPasswordConfirm').value = '';
+  document.getElementById('resetError').textContent = '';
+});
+
+/* --- Reset Password --- */
+document.getElementById('resetForm').addEventListener('submit', e => {
+  e.preventDefault();
+  const newPassword = document.getElementById('resetPassword').value;
+  const confirmPassword = document.getElementById('resetPasswordConfirm').value;
+  const err = document.getElementById('resetError');
+
+  err.textContent = '';
+
+  if (newPassword.length < 6) { err.textContent = 'Le mot de passe doit contenir au moins 6 caractères.'; return; }
+  if (newPassword !== confirmPassword) { err.textContent = 'Les mots de passe ne correspondent pas.'; return; }
+
+  const users = getUsers();
+  const user = users.find(u => u.email === resetUserEmail);
+  if (!user) { err.textContent = 'Erreur : utilisateur non trouvé.'; return; }
+
+  // Update password
+  user.password = newPassword;
+  saveUsers(users);
+
+  // Show success and redirect
+  err.textContent = '';
+  document.getElementById('resetForm').style.display = 'none';
+  const successMsg = document.createElement('p');
+  successMsg.style.cssText = 'text-align:center; color:#27ae60; font-size:0.9rem; line-height:1.5;';
+  successMsg.innerHTML = '✓ Votre mot de passe a été réinitialisé avec succès.<br><br>Redirection...';
+  document.getElementById('resetForm').parentElement.appendChild(successMsg);
+
+  setTimeout(() => {
+    resetUserEmail = '';
+    showLogin();
+    document.getElementById('forgotForm').reset();
+    document.getElementById('resetForm').reset();
+    document.getElementById('resetForm').style.display = '';
+    successMsg.remove();
+  }, 2000);
 });
