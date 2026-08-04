@@ -27,7 +27,7 @@ const YUGA_KB = [
   { keys: ['contact','joindre','appeler','numéro'], answer: 'Pour nous contacter, retrouvez-nous sur Instagram ou Facebook : @yuga.universe. Vous pouvez aussi nous écrire via la section contact de notre site.' },
 
   // Order
-  { keys: ['commander','commande','acheter','achat'], answer: 'Pour passer une commande, vous devez d\'abord créer un compte ou vous connecter. Ensuite, ajoutez le produit souhaité à votre panier via le bouton panier sur chaque produit, puis cliquez sur "Passer la commande" pour finaliser. C\'est simple et rapide !' },
+  { keys: ['commander','commande','acheter','achat'], answer: '__ORDER__' },
   { keys: ['panier','cart'], answer: 'Votre panier est accessible via l\'icône en haut à droite. Vous pouvez y ajouter vos produits et passer commande quand vous le souhaitez.' },
   { keys: ['annuler','annulation'], answer: 'Vous pouvez annuler votre commande depuis la section "Ma commande" accessible via la notification dans votre barre de navigation, tant que la commande n\'a pas été livrée.' },
 
@@ -41,6 +41,14 @@ function yugaAnswer(input) {
   const q = input.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
   for (const item of YUGA_KB) {
     if (item.keys.some(k => q.includes(k.normalize('NFD').replace(/[\u0300-\u036f]/g, '')))) {
+      if (item.answer === '__ORDER__') {
+        const user = JSON.parse(localStorage.getItem('yuga_current_user') || 'null');
+        if (user) {
+          return 'Pour passer votre commande, ajoutez le produit souhaité à votre panier puis cliquez sur "Passer la commande". Renseignez votre adresse de livraison et confirmez. Le paiement se fait à la réception, en espèces.';
+        } else {
+          return 'Pour passer une commande, connectez-vous ou créez un compte, ajoutez le produit souhaité à votre panier puis cliquez sur "Passer la commande". Le paiement se fait à la réception, en espèces.';
+        }
+      }
       return item.answer;
     }
   }
@@ -133,7 +141,11 @@ function yugaAnswer(input) {
     panel.classList.toggle('open');
     unread.style.display = 'none';
     if (panel.classList.contains('open') && messages.children.length === 0) {
-      setTimeout(() => addMsg('Bonjour ! Bienvenue chez YŪGA ✦ Je suis votre assistant. Comment puis-je vous aider ?', 'bot'), 300);
+      const user = JSON.parse(localStorage.getItem('yuga_current_user') || 'null');
+      const greeting = user
+        ? `Bonjour ${user.prenom} ! Bienvenue chez YŪGA ✦ Comment puis-je vous aider ?`
+        : 'Bonjour ! Bienvenue chez YŪGA ✦ Je suis votre assistant. Comment puis-je vous aider ?';
+      setTimeout(() => addMsg(greeting, 'bot'), 300);
     }
   });
 

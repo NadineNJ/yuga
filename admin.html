@@ -33,7 +33,7 @@
   <div class="admin" id="adminDash" style="display:none;">
 
     <!-- Sidebar -->
-    <aside class="sidebar">
+    <aside class="sidebar" id="adminSidebar">
       <div class="sidebar__logo">YŪGA</div>
       <nav class="sidebar__nav">
         <button class="sidebar__link active" data-tab="dashboard">
@@ -59,11 +59,16 @@
       </button>
     </aside>
 
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
     <!-- Main -->
     <main class="main">
 
       <!-- Top bar -->
       <div class="topbar">
+        <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
         <div>
           <h1 class="topbar__title" id="pageTitle">Dashboard</h1>
           <p class="topbar__sub">Bienvenue dans votre espace administrateur</p>

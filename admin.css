@@ -346,16 +346,153 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .modal-row span:first-child { color: var(--mid); }
 .modal-row--total { font-weight: 600; border-bottom: none; }
 
-/* Responsive */
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+/* Hamburger toggle button */
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  width: 40px;
+  height: 40px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  flex-shrink: 0;
+}
+.menu-toggle span {
+  display: block;
+  height: 2px;
+  width: 22px;
+  background: var(--ink);
+  border-radius: 2px;
+  transition: all 0.25s;
+}
+
+/* Sidebar overlay backdrop */
+.sidebar-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(26,20,16,0.5);
+  z-index: 9;
+  backdrop-filter: blur(2px);
+}
+.sidebar-overlay.open { display: block; }
+
 @media (max-width: 1024px) {
   .stats-grid { grid-template-columns: repeat(2, 1fr); }
   .product-catalog { grid-template-columns: repeat(2, 1fr); }
 }
+
 @media (max-width: 768px) {
-  .sidebar { width: 60px; }
-  .sidebar__logo, .sidebar__link span, .sidebar__logout span { display: none; }
-  .main { margin-left: 60px; padding: 20px; }
-  .stats-grid { grid-template-columns: 1fr 1fr; }
+  /* Hamburger visible */
+  .menu-toggle { display: flex; }
+
+  /* Sidebar becomes a slide-over */
+  .sidebar {
+    transform: translateX(-100%);
+    transition: transform 0.3s cubic-bezier(0.25,0.46,0.45,0.94);
+    z-index: 10;
+    width: 240px;
+  }
+  .sidebar--open { transform: translateX(0); }
+
+  /* Show all sidebar text even when not open (it's hidden off-screen) */
+  .sidebar__logo,
+  .sidebar__link span,
+  .sidebar__logout span { display: block; }
+
+  /* Main takes full width */
+  .main {
+    margin-left: 0;
+    padding: 16px;
+  }
+
+  /* Topbar */
+  .topbar {
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+  .topbar > div:first-child {
+    flex: 1;
+  }
+  .topbar__title { font-size: 1.4rem; }
+  .topbar__date { font-size: 0.72rem; width: 100%; }
+
+  /* Stats grid */
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+  .stat-card { padding: 16px 12px; gap: 12px; }
+  .stat-card__icon { width: 40px; height: 40px; flex-shrink: 0; }
+  .stat-card__value { font-size: 1.3rem; }
+  .stat-card__label { font-size: 0.68rem; }
+
+  /* Section boxes */
+  .section-box { padding: 16px; margin-bottom: 16px; }
+
+  /* Tables — horizontal scroll */
+  .orders-table-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .full-table { min-width: 700px; }
+  .full-table td,
+  .full-table th { padding: 10px 10px; white-space: nowrap; }
+  .full-table td:nth-child(6) { white-space: normal; max-width: 100px; }
+
+  /* Mini table */
+  .mini-table { min-width: 500px; }
+  .section-box > div { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+
+  /* Toolbar */
+  .orders-toolbar { flex-direction: column; gap: 10px; }
+  .search-input, .filter-select { width: 100%; }
+
+  /* Product catalog */
+  .product-catalog { grid-template-columns: 1fr 1fr; gap: 12px; }
+  .catalog-card__info { padding: 12px; }
+
+  /* Modal full screen */
+  .modal-overlay { align-items: flex-end; }
+  .modal {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 16px 16px 0 0;
+    max-height: 90vh;
+  }
+
+  /* Action buttons smaller */
+  .action-btn { padding: 4px 8px; font-size: 0.68rem; margin-right: 2px; }
+
+  /* Login box */
+  .login-box { padding: 36px 24px; }
+}
+
+@media (max-width: 480px) {
+  .stats-grid { grid-template-columns: 1fr 1fr; gap: 10px; }
+  .stat-card { padding: 12px 10px; gap: 10px; }
+  .stat-card__icon { width: 36px; height: 36px; }
+  .stat-card__value { font-size: 1.1rem; }
+
+  .product-catalog { grid-template-columns: 1fr; }
+  
+  .main { padding: 12px; }
+
+  .topbar__title { font-size: 1.2rem; }
+
+  .confirm-box { padding: 28px 20px; }
+  .confirm-actions { flex-direction: column; gap: 8px; }
+  .confirm-btn { width: 100%; }
 }
 
 /* ===========================

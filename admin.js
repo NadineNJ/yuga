@@ -92,6 +92,38 @@ document.addEventListener('DOMContentLoaded', () => {
     location.reload();
   });
 
+  /* --- Mobile Sidebar Toggle --- */
+  const menuToggle = document.getElementById('menuToggle');
+  const adminSidebar = document.getElementById('adminSidebar');
+  const sidebarOverlay = document.getElementById('sidebarOverlay');
+
+  function openSidebar() {
+    adminSidebar?.classList.add('sidebar--open');
+    sidebarOverlay?.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeSidebar() {
+    adminSidebar?.classList.remove('sidebar--open');
+    sidebarOverlay?.classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  menuToggle?.addEventListener('click', () => {
+    if (adminSidebar?.classList.contains('sidebar--open')) {
+      closeSidebar();
+    } else {
+      openSidebar();
+    }
+  });
+  sidebarOverlay?.addEventListener('click', closeSidebar);
+
+  // Close sidebar when a tab is selected on mobile
+  document.querySelectorAll('.sidebar__link').forEach(btn => {
+    btn.addEventListener('click', () => {
+      if (window.innerWidth <= 768) closeSidebar();
+    });
+  });
+
   /* --- Tabs --- */
   document.querySelectorAll('.sidebar__link').forEach(btn => {
     btn.addEventListener('click', (e) => {
