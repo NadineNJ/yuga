@@ -27,7 +27,7 @@ const YUGA_KB = [
   { keys: ['contact','joindre','appeler','numéro'], answer: 'Pour nous contacter, retrouvez-nous sur Instagram ou Facebook : @yuga.universe. Vous pouvez aussi nous écrire via la section contact de notre site.' },
 
   // Order
-  { keys: ['commander','commande','acheter','achat'], answer: 'Pour passer une commande, ajoutez le produit souhaité à votre panier via le bouton panier sur chaque produit, puis cliquez sur "Passer la commande" pour remplir vos coordonnées. C\'est simple et rapide !' },
+  { keys: ['commander','commande','acheter','achat'], answer: 'Pour passer une commande, vous devez d\'abord créer un compte ou vous connecter. Ensuite, ajoutez le produit souhaité à votre panier via le bouton panier sur chaque produit, puis cliquez sur "Passer la commande" pour finaliser. C\'est simple et rapide !' },
   { keys: ['panier','cart'], answer: 'Votre panier est accessible via l\'icône en haut à droite. Vous pouvez y ajouter vos produits et passer commande quand vous le souhaitez.' },
   { keys: ['annuler','annulation'], answer: 'Vous pouvez annuler votre commande depuis la section "Ma commande" accessible via la notification dans votre barre de navigation, tant que la commande n\'a pas été livrée.' },
 

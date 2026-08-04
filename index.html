@@ -32,6 +32,20 @@
       <a href="#" class="nav__logo">YŪGA</a>
       <div class="nav__right">
         <a href="#faq" class="nav__link">FAQ</a>
+        <div class="nav__user" id="navUser">
+          <!-- filled by auth-nav.js -->
+        </div>
+        <button class="nav__notif" id="navNotif" style="display:none" aria-label="Notifications">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M18 8A6 6 0 006 8c0 7-3 9-3 9h18s-3-2-3-9"/>
+            <path d="M13.73 21a2 2 0 01-3.46 0"/>
+          </svg>
+          <span class="notif-dot" id="notifDot"></span>
+          <div class="notif-popup" id="notifPopup">
+            <div class="notif-popup__head">Notifications</div>
+            <div class="notif-list" id="notifList"></div>
+          </div>
+        </button>
         <button class="nav__cart" aria-label="Panier">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
             <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/>
@@ -40,7 +54,6 @@
           </svg>
           <span class="cart-count">0</span>
         </button>
-
       </div>
     </nav>
   </header>
@@ -418,6 +431,7 @@
   <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
   <script>emailjs.init(YUGA_CONFIG.emailjs.publicKey);</script>
   <script src="app.js"></script>
+  <script src="auth-nav.js"></script>
   <script src="chatbot.js"></script>
 </body>
 </html>

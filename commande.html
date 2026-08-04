@@ -173,6 +173,13 @@
   </div>
 
   <div class="toast" id="toast"></div>
+  <script src="auth-nav.js"></script>
+  <script>
+    // Guard: must be logged in to checkout
+    if (!localStorage.getItem('yuga_current_user')) {
+      window.location.href = 'login.html?redirect=' + encodeURIComponent(window.location.href);
+    }
+  </script>
   <script src="app.js"></script>
   <script src="chatbot.js"></script>
   <script src="commande.js"></script>

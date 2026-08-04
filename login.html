@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Connexion — YŪGA</title>
+  <link rel="icon" type="image/png" href="Logo/ICON.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="login.css" />
+</head>
+<body class="page-login">
+
+  <div class="auth-page">
+    <a href="index.html" class="auth-logo">YŪGA</a>
+
+    <!-- LOGIN FORM -->
+    <div class="auth-box" id="loginBox">
+      <h1 class="auth-title">Connexion</h1>
+      <p class="auth-sub">Connectez-vous pour accéder à votre espace.</p>
+      <form id="loginForm" class="auth-form" novalidate>
+        <div class="auth-group">
+          <label>Adresse e-mail</label>
+          <input type="email" id="loginEmail" placeholder="votre@email.com" required />
+        </div>
+        <div class="auth-group">
+          <label>Mot de passe</label>
+          <input type="password" id="loginPassword" placeholder="••••••••" required />
+        </div>
+        <p class="auth-error" id="loginError"></p>
+        <button type="submit" class="auth-btn">Se connecter</button>
+      </form>
+      <p class="auth-switch">Pas encore de compte ? <button onclick="showRegister()">Créer un compte</button></p>
+    </div>
+
+    <!-- REGISTER FORM -->
+    <div class="auth-box" id="registerBox" style="display:none">
+      <h1 class="auth-title">Créer un compte</h1>
+      <p class="auth-sub">Rejoignez YŪGA pour commander vos pièces artisanales.</p>
+      <form id="registerForm" class="auth-form" novalidate>
+        <div class="auth-row">
+          <div class="auth-group">
+            <label>Prénom</label>
+            <input type="text" id="regPrenom" placeholder="Votre prénom" required />
+          </div>
+          <div class="auth-group">
+            <label>Nom</label>
+            <input type="text" id="regNom" placeholder="Votre nom" required />
+          </div>
+        </div>
+        <div class="auth-group">
+          <label>Adresse e-mail</label>
+          <input type="email" id="regEmail" placeholder="votre@email.com" required />
+        </div>
+        <div class="auth-group">
+          <label>Téléphone</label>
+          <input type="tel" id="regPhone" placeholder="+216 XX XXX XXX" required />
+        </div>
+        <div class="auth-group">
+          <label>Mot de passe</label>
+          <input type="password" id="regPassword" placeholder="Minimum 6 caractères" required />
+        </div>
+        <p class="auth-error" id="registerError"></p>
+        <button type="submit" class="auth-btn">Créer mon compte</button>
+      </form>
+      <p class="auth-switch">Déjà un compte ? <button onclick="showLogin()">Se connecter</button></p>
+    </div>
+  </div>
+
+  <script src="config.js"></script>
+  <script src="auth.js"></script>
+</body>
+</html>

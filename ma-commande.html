@@ -25,15 +25,8 @@
       <a href="index.html" class="nav__logo">YŪGA</a>
       <div class="nav__right">
         <a href="index.html#faq" class="nav__link">FAQ</a>
-        <button class="nav__cart" aria-label="Panier">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-            <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/>
-            <line x1="3" y1="6" x2="21" y2="6"/>
-            <path d="M16 10a4 4 0 01-8 0"/>
-          </svg>
-          <span class="cart-count">0</span>
-        </button>
-
+        <div class="nav__user" id="navUser"></div>
+        <button class="nav__notif" id="navNotif" style="display:none" aria-label="Notifications"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 8A6 6 0 006 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 01-3.46 0"/></svg><span class="notif-dot" id="notifDot"></span><div class="notif-popup" id="notifPopup"><div class="notif-popup__head">Notifications</div><div class="notif-list" id="notifList"></div></div></button>
       </div>
     </nav>
   </header>
@@ -89,7 +82,7 @@
       <p>Êtes-vous sûr de vouloir  cette commande ? Notre équipe sera informée.</p>
       <div class="confirm-actions">
         <button class="confirm-btn confirm-btn--cancel" id="declineCancel">Annuler</button>
-        <button class="confirm-btn confirm-btn--delete" id="declineOk">Décliner</button>
+        <button class="confirm-btn confirm-btn--delete" id="declineOk">Annuler</button>
       </div>
     </div>
   </div>
@@ -115,6 +108,7 @@
 
   <div class="toast" id="toast"></div>
 
+  <script src="auth-nav.js"></script>
   <script src="app.js"></script>
   <script src="chatbot.js"></script>
   <script src="produits.js"></script>

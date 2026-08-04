@@ -1179,3 +1179,58 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 @media (max-width: 768px) {
   .announcement-bar { display: none; }
 }
+
+/* ===========================
+   User Nav Menu
+=========================== */
+.nav__user { position: relative; }
+.nav__user-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.75rem;
+  letter-spacing: 0.06em;
+  color: var(--white);
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: color 0.2s;
+  font-family: var(--font-sans);
+}
+.header.scrolled .nav__user-btn,
+.header:hover .nav__user-btn { color: var(--ink); }
+.header--static .nav__user-btn { color: var(--ink) !important; }
+.nav__login-link { color: var(--white); }
+.header.scrolled .nav__login-link,
+.header:hover .nav__login-link { color: var(--warm-mid); }
+.header--static .nav__login-link { color: var(--warm-mid) !important; }
+
+.nav__user-dropdown {
+  position: absolute;
+  top: calc(100% + 12px);
+  right: 0;
+  background: var(--white);
+  border-radius: 10px;
+  box-shadow: 0 8px 32px rgba(42,31,20,0.12);
+  padding: 16px;
+  min-width: 200px;
+  display: none;
+  z-index: 200;
+  border: 1px solid rgba(196,168,130,0.2);
+}
+.nav__user-dropdown.open { display: block; }
+.nav__user-info { font-size: 0.88rem; font-weight: 500; color: var(--ink); margin-bottom: 4px; }
+.nav__user-email { font-size: 0.75rem; color: var(--warm-mid); margin-bottom: 14px; }
+.nav__user-logout {
+  width: 100%;
+  padding: 9px;
+  background: var(--off);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 0.75rem;
+  color: var(--ink);
+  cursor: pointer;
+  font-family: var(--font-sans);
+  transition: background 0.2s;
+}
+.nav__user-logout:hover { background: #e74c3c; color: white; border-color: #e74c3c; }

@@ -5,6 +5,40 @@ const productImgsLocal = {
   'YŪGA Sahra': 'https://cdn.converty.shop/images/b9d2a38a07e9d9c880fcb152dcf154a3df0094820544f443d1bacba5bae0aa7c_lg.webp',
 };
 
+/* Auto-fill form from logged-in user and hide prefilled fields */
+(function() {
+  const user = JSON.parse(localStorage.getItem('yuga_current_user') || 'null');
+  if (!user) return;
+
+  const prenom = document.getElementById('prenom');
+  const nom    = document.getElementById('nom');
+  const tel    = document.getElementById('telephone');
+  const email  = document.getElementById('email');
+
+  if (prenom) { prenom.value = user.prenom; prenom.setAttribute('readonly', true); }
+  if (nom)    { nom.value    = user.nom;    nom.setAttribute('readonly', true); }
+  if (tel && user.telephone) { tel.value = user.telephone; tel.setAttribute('readonly', true); }
+  if (email && user.email)   { email.value = user.email;   email.setAttribute('readonly', true); }
+
+  // Style readonly fields to look filled-in
+  [prenom, nom, tel, email].forEach(f => {
+    if (f && f.readOnly) {
+      f.style.background = '#f5f0e8';
+      f.style.color = '#6b5744';
+      f.style.cursor = 'default';
+    }
+  });
+
+  // Show a greeting above the form
+  const title = document.querySelector('.checkout__title');
+  if (title) {
+    const greeting = document.createElement('p');
+    greeting.style.cssText = 'font-size:.85rem;color:#6b5744;margin-bottom:8px;margin-top:-28px;';
+    greeting.textContent = `Bonjour, ${user.prenom} ! Il vous suffit de renseigner votre adresse de livraison.`;
+    title.insertAdjacentElement('afterend', greeting);
+  }
+})();
+
 function renderSummary() {
   const items = document.getElementById('summaryItems');
   const subtotalEl = document.getElementById('summarySubtotal');

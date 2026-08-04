@@ -5,51 +5,99 @@
 document.addEventListener('DOMContentLoaded', () => {
 
   const ADMIN_PASSWORD = (typeof YUGA_CONFIG !== 'undefined') ? YUGA_CONFIG.admin.password : 'yuga2026';
+  const AUTH_KEY = 'yuga_admin';
+  const ACTIVE_TAB_KEY = 'yuga_admin_active_tab';
+  const tabTitles = { dashboard: 'Dashboard', orders: 'Commandes', products: 'Produits', users: 'Utilisateurs' };
+  let currentSearch = '';
+  let currentFilter = 'all';
+  let userSearch = '';
+
+  function isAdminLoggedIn() {
+    return localStorage.getItem(AUTH_KEY) === '1' || sessionStorage.getItem(AUTH_KEY) === '1';
+  }
+
+  function persistAdminSession(value) {
+    localStorage.setItem(AUTH_KEY, value);
+    sessionStorage.setItem(AUTH_KEY, value);
+  }
+
+  function clearAdminSession() {
+    localStorage.removeItem(AUTH_KEY);
+    sessionStorage.removeItem(AUTH_KEY);
+    localStorage.removeItem(ACTIVE_TAB_KEY);
+    sessionStorage.removeItem(ACTIVE_TAB_KEY);
+  }
 
   /* --- Login --- */
   document.getElementById('loginForm').addEventListener('submit', e => {
     e.preventDefault();
     const pwd = document.getElementById('passwordInput').value;
     if (pwd === ADMIN_PASSWORD) {
-      sessionStorage.setItem('yuga_admin', '1');
+      persistAdminSession('1');
       showDashboard();
     } else {
       document.getElementById('loginError').textContent = 'Mot de passe incorrect.';
     }
   });
 
+  function setActiveTab(tabName, updateHistory = true) {
+    const safeTab = tabName && document.getElementById('tab-' + tabName) ? tabName : 'dashboard';
+    document.querySelectorAll('.sidebar__link').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+
+    const btn = document.querySelector('.sidebar__link[data-tab="' + safeTab + '"]');
+    const tabEl = document.getElementById('tab-' + safeTab);
+    if (btn) btn.classList.add('active');
+    if (tabEl) tabEl.classList.add('active');
+
+    const titleEl = document.getElementById('pageTitle');
+    if (titleEl) titleEl.textContent = tabTitles[safeTab] || '';
+
+    localStorage.setItem(ACTIVE_TAB_KEY, safeTab);
+    sessionStorage.setItem(ACTIVE_TAB_KEY, safeTab);
+
+    if (updateHistory) {
+      const targetHash = '#' + safeTab;
+      if (window.location.hash !== targetHash) {
+        history.replaceState(null, '', targetHash);
+      }
+    }
+  }
+
+  function getInitialTab() {
+    const storedTab = localStorage.getItem(ACTIVE_TAB_KEY) || sessionStorage.getItem(ACTIVE_TAB_KEY);
+    if (storedTab && document.getElementById('tab-' + storedTab)) return storedTab;
+
+    const hashTab = window.location.hash.replace('#', '').trim();
+    if (hashTab && document.getElementById('tab-' + hashTab)) return hashTab;
+
+    return 'dashboard';
+  }
+
   function showDashboard() {
     document.getElementById('loginScreen').style.display = 'none';
     document.getElementById('adminDash').style.display = 'flex';
-    // Force first tab active
-    document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
-    const first = document.getElementById('tab-dashboard');
-    if (first) first.classList.add('active');
-    document.querySelectorAll('.sidebar__link').forEach(b => b.classList.remove('active'));
-    const firstBtn = document.querySelector('.sidebar__link[data-tab="dashboard"]');
-    if (firstBtn) firstBtn.classList.add('active');
+    setActiveTab(getInitialTab(), false);
     loadAll();
   }
 
-  if (sessionStorage.getItem('yuga_admin')) showDashboard();
+  if (isAdminLoggedIn()) showDashboard();
+  window.addEventListener('pageshow', () => {
+    if (isAdminLoggedIn()) showDashboard();
+  });
 
   /* --- Logout --- */
   document.getElementById('logoutBtn').addEventListener('click', () => {
-    sessionStorage.removeItem('yuga_admin');
+    clearAdminSession();
     location.reload();
   });
 
   /* --- Tabs --- */
   document.querySelectorAll('.sidebar__link').forEach(btn => {
     btn.addEventListener('click', (e) => {
+      e.preventDefault();
       e.stopPropagation();
-      document.querySelectorAll('.sidebar__link').forEach(b => b.classList.remove('active'));
-      document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
-      btn.classList.add('active');
-      const tabEl = document.getElementById('tab-' + btn.dataset.tab);
-      if (tabEl) tabEl.classList.add('active');
-      const titles = { dashboard: 'Dashboard', orders: 'Commandes', products: 'Produits' };
-      document.getElementById('pageTitle').textContent = titles[btn.dataset.tab] || '';
+      setActiveTab(btn.dataset.tab);
     });
   });
 
@@ -72,7 +120,50 @@ document.addEventListener('DOMContentLoaded', () => {
     loadProductsSold();
     loadRecentOrders();
     loadOrdersTable();
+    loadUsersTable();
   }
+
+  /* --- Users --- */
+  function loadUsersTable() {
+    const el = document.getElementById('usersTable');
+    if (!el) return;
+    let users = JSON.parse(localStorage.getItem('yuga_users') || '[]');
+    if (userSearch) {
+      const q = userSearch.toLowerCase();
+      users = users.filter(u =>
+        (u.prenom + ' ' + u.nom).toLowerCase().includes(q) ||
+        u.email.toLowerCase().includes(q)
+      );
+    }
+    if (!users.length) {
+      el.innerHTML = '<div class="orders-table-wrap" style="padding:24px;background:#fff;border-radius:10px;"><p class="empty-msg">Aucun utilisateur inscrit.</p></div>';
+      return;
+    }
+    el.innerHTML = `<div class="orders-table-wrap"><table class="full-table">
+      <thead><tr><th>ID</th><th>Nom complet</th><th>Email</th><th>Téléphone</th><th>Inscrit le</th><th>Actions</th></tr></thead>
+      <tbody>${users.map(u => `<tr>
+        <td><code style="font-size:.73rem;color:#6b5744">${u.id}</code></td>
+        <td><strong>${u.prenom} ${u.nom}</strong></td>
+        <td>${u.email}</td>
+        <td>${u.telephone || '—'}</td>
+        <td>${u.createdAt || '—'}</td>
+        <td><button class="action-btn action-btn--cancel" onclick="deleteUser('${u.id}')">Supprimer</button></td>
+      </tr>`).join('')}</tbody>
+    </table></div>`;
+  }
+
+  document.getElementById('userSearch')?.addEventListener('input', e => {
+    userSearch = e.target.value;
+    loadUsersTable();
+  });
+
+  window.deleteUser = function(id) {
+    showConfirm(() => {
+      const users = JSON.parse(localStorage.getItem('yuga_users') || '[]').filter(u => u.id !== id);
+      localStorage.setItem('yuga_users', JSON.stringify(users));
+      loadUsersTable();
+    });
+  };
 
   /* --- Stats --- */
   function loadStats() {
@@ -117,9 +208,6 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   /* --- Full Orders Table --- */
-  let currentSearch = '';
-  let currentFilter = 'all';
-
   function loadOrdersTable() {
     let orders = getOrders().reverse();
     if (currentFilter !== 'all') orders = orders.filter(o => o.status === currentFilter);

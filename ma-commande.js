@@ -79,7 +79,7 @@ if (!order) {
     ${canDecline ? `
     <div class="order-decline-section">
       <p>Vous souhaitez annuler cette commande ? Cliquez pour nous en informer.</p>
-      <button class="btn--decline" id="declineBtn">Décliner la commande</button>
+      <button class="btn--decline" id="declineBtn">Annuler la commande</button>
     </div>` : ''}
   `;
 

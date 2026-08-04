@@ -1,0 +1,114 @@
+/* ===========================
+   Auth Page
+=========================== */
+.page-login { background: var(--off); min-height: 100vh; }
+
+.auth-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.auth-logo {
+  font-family: var(--font-serif);
+  font-size: 2rem;
+  letter-spacing: 0.2em;
+  color: var(--ink);
+  margin-bottom: 40px;
+  text-decoration: none;
+}
+
+.auth-box {
+  background: var(--white);
+  border-radius: 16px;
+  padding: 48px 44px;
+  width: 100%;
+  max-width: 460px;
+  border: 1px solid rgba(196,168,130,0.2);
+  box-shadow: 0 8px 40px rgba(42,31,20,0.06);
+}
+
+.auth-title {
+  font-family: var(--font-serif);
+  font-size: 1.9rem;
+  font-weight: 300;
+  color: var(--ink);
+  margin-bottom: 8px;
+}
+
+.auth-sub { font-size: 0.85rem; color: var(--warm-mid); margin-bottom: 32px; }
+
+.auth-form { display: flex; flex-direction: column; gap: 16px; }
+
+.auth-row { display: flex; gap: 14px; width: 100%; }
+.auth-row .auth-group { flex: 1; min-width: 0; }
+
+.auth-group { display: flex; flex-direction: column; gap: 6px; }
+.auth-group label {
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--warm-mid);
+  font-weight: 500;
+}
+.auth-group input {
+  padding: 12px 14px;
+  border: 1px solid rgba(196,168,130,0.4);
+  border-radius: 6px;
+  font-family: var(--font-sans);
+  font-size: 0.88rem;
+  color: var(--ink);
+  background: var(--white);
+  outline: none;
+  transition: border-color 0.2s;
+}
+.auth-group input:focus { border-color: var(--clay); }
+.auth-group input::placeholder { color: rgba(107,87,68,0.35); }
+
+.auth-error {
+  font-size: 0.78rem;
+  color: #e74c3c;
+  min-height: 18px;
+}
+
+.auth-btn {
+  width: 100%;
+  background: var(--espresso);
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-family: var(--font-sans);
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+  margin-top: 4px;
+}
+.auth-btn:hover { background: var(--clay-2); }
+
+.auth-switch {
+  text-align: center;
+  font-size: 0.82rem;
+  color: var(--warm-mid);
+  margin-top: 20px;
+}
+.auth-switch button {
+  color: var(--clay);
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0.82rem;
+  font-family: var(--font-sans);
+  text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+  .auth-box { padding: 32px 20px; }
+  .auth-row { flex-direction: column; gap: 0; }
+}
