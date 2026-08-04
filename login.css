@@ -174,7 +174,6 @@
     padding: 36px 28px; 
     max-width: 100%;
     border-radius: 12px;
-    display: block !important;
     width: 100%;
   }
   
@@ -229,7 +228,6 @@
   .auth-box { 
     padding: 28px 16px;
     border-radius: 10px;
-    display: block !important;
     width: 100%;
   }
   

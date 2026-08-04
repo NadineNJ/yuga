@@ -799,7 +799,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .cart-drawer {
   position: fixed;
   inset: 0;
-  z-index: 200;
+  z-index: 400;
   pointer-events: none;
 }
 .cart-drawer.open { pointer-events: all; }
@@ -929,6 +929,9 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   .nav__right .nav__login-link { display: flex !important; align-items: center; }
   .nav__user { display: flex !important; }
   .nav__cart { display: flex !important; }
+  /* Tighten nav spacing on mobile */
+  .nav { padding: 16px 20px; }
+  .nav__right { gap: 16px; flex: none; }
   .collections__grid { grid-template-columns: 1fr; }
   .collection-card--large { grid-column: span 1; }
   .process__grid { flex-direction: column; gap: 40px; }
@@ -1087,7 +1090,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   bottom: 24px;
   left: 50%;
   transform: translateX(-50%) translateY(120px);
-  z-index: 400;
+  z-index: 450;
   background: var(--espresso);
   color: var(--sand);
   border-radius: 12px;
@@ -1261,7 +1264,14 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 
 @media (max-width: 768px) {
   .nav__login-label { display: none; }
-  .nav__login-link { gap: 0; }
+  .nav__login-link { 
+    gap: 0;
+    min-width: 36px;
+    min-height: 36px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 .nav__user-dropdown {

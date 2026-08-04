@@ -60,6 +60,9 @@ function openCart() {
   drawer.classList.add('open');
   drawer.setAttribute('aria-hidden', 'false');
   document.body.style.overflow = 'hidden';
+  // Hide chatbot button so it doesn't overlap the cart footer on mobile
+  const chatBtn = document.querySelector('.yuga-chat__btn');
+  if (chatBtn) chatBtn.style.visibility = 'hidden';
 }
 
 function closeCart() {
@@ -68,6 +71,9 @@ function closeCart() {
   drawer.classList.remove('open');
   drawer.setAttribute('aria-hidden', 'true');
   document.body.style.overflow = '';
+  // Restore chatbot button
+  const chatBtn = document.querySelector('.yuga-chat__btn');
+  if (chatBtn) chatBtn.style.visibility = '';
 }
 
 /* Restore count immediately on every page */
