@@ -925,6 +925,10 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 @media (max-width: 768px) {
   .nav__left { display: none; }
   .nav__right .nav__link { display: none; }
+  /* Keep login link & user menu visible on mobile */
+  .nav__right .nav__login-link { display: flex !important; align-items: center; }
+  .nav__user { display: flex !important; }
+  .nav__cart { display: flex !important; }
   .collections__grid { grid-template-columns: 1fr; }
   .collection-card--large { grid-column: span 1; }
   .process__grid { flex-direction: column; gap: 40px; }
@@ -998,6 +1002,37 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   display: none;
 }
 .notif-popup.open { display: block; }
+
+/* Bell icon responsive fixes */
+@media (max-width: 768px) {
+  .nav__notif {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    z-index: 20;
+    pointer-events: auto;
+  }
+  
+  .notif-popup {
+    width: 280px;
+    right: -40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav__notif {
+    width: 18px;
+    height: 18px;
+    position: relative;
+    z-index: 20;
+    pointer-events: auto;
+  }
+  
+  .notif-popup {
+    width: 250px;
+    right: -60px;
+  }
+}
 .notif-popup__head {
   padding: 14px 18px;
   border-bottom: 1px solid rgba(196,168,130,0.2);
@@ -1183,7 +1218,11 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 /* ===========================
    User Nav Menu
 =========================== */
-.nav__user { position: relative; }
+.nav__user {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
 .nav__user-btn {
   display: flex;
   align-items: center;
@@ -1198,12 +1237,32 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   font-family: var(--font-sans);
 }
 .header.scrolled .nav__user-btn,
-.header:hover .nav__user-btn { color: var(--ink); }
-.header--static .nav__user-btn { color: var(--ink) !important; }
-.nav__login-link { color: var(--white); }
+.header:hover .nav__user-btn,
+.header--static .nav__user-btn,
+.page-products .nav__user-btn,
+.page-checkout .nav__user-btn { color: var(--ink) !important; }
+.nav__login-link { 
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  transition: color 0.2s;
+}
 .header.scrolled .nav__login-link,
-.header:hover .nav__login-link { color: var(--warm-mid); }
-.header--static .nav__login-link { color: var(--warm-mid) !important; }
+.header:hover .nav__login-link,
+.header--static .nav__login-link,
+.page-products .nav__login-link,
+.page-checkout .nav__login-link { color: var(--warm-mid) !important; }
+.nav__login-link:hover { color: var(--ink) !important; }
+
+@media (max-width: 768px) {
+  .nav__login-label { display: none; }
+  .nav__login-link { gap: 0; }
+}
 
 .nav__user-dropdown {
   position: absolute;

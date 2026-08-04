@@ -47,6 +47,13 @@ function getCurrentUser() {
       window.location.reload();
     });
   } else {
-    navUser.innerHTML = `<a href="login.html?redirect=${encodeURIComponent(window.location.href)}" class="nav__link nav__login-link">Connexion</a>`;
+    navUser.innerHTML = `
+      <a href="login.html?redirect=${encodeURIComponent(window.location.href)}" class="nav__login-link" aria-label="Connexion">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/>
+          <circle cx="12" cy="7" r="4"/>
+        </svg>
+        <span class="nav__login-label">Connexion</span>
+      </a>`;
   }
 })();
